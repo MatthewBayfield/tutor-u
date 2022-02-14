@@ -7,7 +7,15 @@
 
 /*For mobile display sizes*/
 
+/*header styling*/
+
 header {
     height: 25vh;
     width: 100vw;
 }
+
+#logo_container {
+    background: url("../images/girl_being_tutored_online.jpg") center / cover no-repeat;
+    height: 100%;
+}
+
