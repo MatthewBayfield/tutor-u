@@ -1,0 +1,6 @@
+/*Removes browser padding/margin/border box sizing*/
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
