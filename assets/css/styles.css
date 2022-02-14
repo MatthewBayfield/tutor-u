@@ -4,3 +4,10 @@
     margin: 0;
     border: none;
 }
+
+/*For mobile display sizes*/
+
+header {
+    height: 25vh;
+    width: 100vw;
+}
