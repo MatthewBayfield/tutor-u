@@ -1,3 +1,6 @@
+/*imports google font stylesheet*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
+
 /*Removes browser padding/margin/border box sizing*/
 * {
     padding: 0;
@@ -12,11 +15,27 @@
 header {
     height: 25vh;
     width: 100vw;
-    background: url("../images/girl_being_tutored_online.jpg") center / cover no-repeat;
+    background: url("../images/girl_being_tutored_online.jpg") center / cover no-repeat, #00bd9d ;
+    position: relative;
 }
 
 #logo_container {
-    
-    
+    position: absolute;
+    /*calculates the insets necessary for centering the box, effectively as a function of viewport size, which varies with orientation and screen size. 
+    The absolute size being substracted is equal to approximately half the box width or height.*/
+    top: calc( 50% - 24px );
+    left: calc( 50% - 91px );
+    /*Allows logo to be more visible, still allowing the background image to also be partially visible.*/
+    background-color: rgba(84, 222, 253, 0.8);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#logo_container > h1 {
+    font-family: "IBM Plex Serif", "Tahoma";
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 0.8;
+    color: #ffffff;    
 }
 
