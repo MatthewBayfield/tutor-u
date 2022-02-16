@@ -113,4 +113,36 @@ nav span {
     text-decoration: underline;
     text-decoration-color: #00bd9d;
 }
-    
+
+/* main section stylng*/
+
+/*Creates a 2x2 grid layout for main content.*/
+
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 2px;
+    height: 60vh;
+}
+
+.first_column {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.second_column {
+    grid-column-start: 2;
+    grid-column-end: 3;
+   
+}
+
+.first_row {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.second_row {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
