@@ -9,6 +9,12 @@
 
 /*For mobile display sizes in portrait orientation*/
 
+body {
+    background-color: #8bd7d2;
+    font-family: "Yantramanav";
+    font-weight: 300;
+}
+
 /*header styling*/
 
 header {
