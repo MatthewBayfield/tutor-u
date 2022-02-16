@@ -101,3 +101,12 @@ nav span {
 .small_link {
     width: 15vw;
 }
+
+/*Provides user feedback by indicating what page they are currently on*/
+.active {
+    background-color: #ffffff;
+    border: 2px solid #00bd9d;
+    border-radius: 50%;
+    text-decoration: underline;
+    text-decoration-color: #00bd9d;
+}
