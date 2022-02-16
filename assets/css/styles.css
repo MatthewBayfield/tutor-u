@@ -107,6 +107,10 @@ nav span {
     background-color: #ffffff;
     border: 2px solid #00bd9d;
     border-radius: 50%;
+}
+
+.active h2 {
     text-decoration: underline;
     text-decoration-color: #00bd9d;
 }
+    
