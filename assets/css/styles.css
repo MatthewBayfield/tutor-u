@@ -155,6 +155,12 @@ main li {
     margin: 10px 0;
 }
 
+main li a {
+    color: inherit;
+}
+
+
+
 /*Creates a 2x2 grid layout for main content.*/
 
 main {
