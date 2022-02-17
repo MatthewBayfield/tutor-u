@@ -159,6 +159,14 @@ main li a {
     color: inherit;
 }
 
+/*Styles the scroll down page arrow icon of the main section.*/
+main section > a {
+    text-align: center;
+    display: block;
+    font-size: larger;
+    color: blue;
+}
+
 
 
 /*Creates a 2x2 grid layout for main content.*/
