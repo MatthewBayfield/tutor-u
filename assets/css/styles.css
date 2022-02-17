@@ -220,8 +220,8 @@ picture {
 
 img {
     object-fit: contain;
-    object-position: 0% 38%;
-    margin: 0 3px;
-    width: 95%;
+    object-position: 0% 50%;
+    margin: 3px 5px 0px 3px;
+    width: 92%;
     height: 100%;
 }
