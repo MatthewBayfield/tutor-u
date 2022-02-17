@@ -125,12 +125,13 @@ nav span {
 main section {
     font-size: 0.7rem;
     margin: 5px 5px 5px 0px;
-    padding-left: 7px;
+    padding-left: 10px;
 }
 
 main section h3 {
     text-align: center;
-    border: 1px solid #00bd9d
+    border: 1px solid #00bd9d;
+    margin-top: 3px;
 }
 
 main section p {
@@ -138,6 +139,19 @@ main section p {
     padding: 3px;
     text-align: justify;
     text-justify: inter-word;
+}
+
+main ul {
+    margin: 7px 5px 7px 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    list-style-type: square;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+main li {
+    margin: 10px 0;
 }
 
 /*Creates a 2x2 grid layout for main content.*/
