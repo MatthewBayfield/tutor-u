@@ -1,5 +1,6 @@
 /*imports google font stylesheet*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&family=Yantramanav:wght@300;400;500&display=swap');
+
 /*Removes browser padding/margin/border box sizing*/
 * {
     padding: 0;
@@ -28,7 +29,7 @@ header {
     width: 100vw;
     background: url("../images/girl_being_tutored_online.jpg") center / cover no-repeat, #00bd9d;
     position: relative;
-    margin-bottom: 1px;;
+    margin-bottom: 1px;
 }
 
 #logo_container {
@@ -83,12 +84,14 @@ nav {
     font-weight: 500;
     font-family: "Yantramanav", sans-serif;
 }
+
 nav div {
     padding-left: 3px;
     padding-right: 3px;
 }
 
-nav a, nav h2 {
+nav a,
+nav h2 {
     display: inline;
 }
 
@@ -160,7 +163,7 @@ main li a {
 }
 
 /*Styles the scroll down page arrow icon of the main section.*/
-main section > a {
+main section>a {
     text-align: center;
     display: block;
     font-size: larger;
@@ -172,7 +175,7 @@ main section > a {
 /*Creates a 2x2 grid layout for main content.*/
 
 main {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 2px;
@@ -188,7 +191,6 @@ main {
 .second_column {
     grid-column-start: 2;
     grid-column-end: 3;
-   
 }
 
 .first_row {
@@ -202,8 +204,24 @@ main {
 }
 
 /*Adds space between main heading elements text and its font awesome icon*/
-.fa-graduation-cap, .fa-lightbulb, .fa-chalkboard-user {
+.fa-graduation-cap,
+.fa-lightbulb,
+.fa-chalkboard-user {
     margin-left: 4px;
     padding-top: 2px;
     color: #00bd9d;
+}
+
+/*Scales and positions the main picture/image element */
+
+picture {
+    width: 100%;
+}
+
+img {
+    object-fit: contain;
+    object-position: 0% 38%;
+    margin: 0 3px;
+    width: 95%;
+    height: 100%;
 }
