@@ -1,5 +1,5 @@
 /*imports google font stylesheet*/
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&family=Yantramanav:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&family=Yantramanav:wght@300;400;500&display=swap');
 /*Removes browser padding/margin/border box sizing*/
 * {
     padding: 0;
@@ -8,6 +8,12 @@
 }
 
 /*For mobile display sizes in portrait orientation*/
+
+/*Use allow overflow for the purpose of responsive design*/
+
+html {
+    overflow: auto;
+}
 
 body {
     background-color: #8bd7d2;
@@ -123,7 +129,8 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 2px;
-    height: 60vh;
+    /*Height set to auto for the purpose of responsive design*/
+    height: auto;
 }
 
 .first_column {
