@@ -245,3 +245,26 @@ footer div {
     padding: 4px;
     border: 1px solid #00bd9d;
 }
+
+footer ul {
+    list-style: none;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer li {
+    margin: 4px;
+}
+
+footer li a {
+    text-decoration: underline;
+    text-decoration-color: #00bd9d;
+    color: #000000;
+
+}
+
+/*Styles the page up arrow in the site map of the footer.*/
+.fa-arrow-circle-up {
+    margin-left: 4px;
+    color: blue;
+}
