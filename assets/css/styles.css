@@ -9,7 +9,7 @@
 
 /*For mobile display sizes in portrait orientation*/
 
-/*Use allow overflow for the purpose of responsive design*/
+/*auto overflow for the purpose of responsive design*/
 
 html {
     overflow: auto;
