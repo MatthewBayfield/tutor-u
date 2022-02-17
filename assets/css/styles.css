@@ -122,6 +122,24 @@ nav span {
 
 /* main section stylng*/
 
+main section {
+    font-size: 0.7rem;
+    margin: 5px 5px 5px 0px;
+    padding-left: 7px;
+}
+
+main section h3 {
+    text-align: center;
+    border: 1px solid #00bd9d
+}
+
+main section p {
+    margin: 5px 5px 5px 0px;
+    padding: 3px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /*Creates a 2x2 grid layout for main content.*/
 
 main {
