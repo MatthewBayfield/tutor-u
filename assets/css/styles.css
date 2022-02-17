@@ -263,6 +263,10 @@ footer li a {
 
 }
 
+footer h4 {
+    text-transform: uppercase;
+}
+
 /*Styles the page up arrow in the site map of the footer.*/
 .fa-arrow-circle-up {
     margin-left: 4px;
