@@ -14,6 +14,7 @@
 
 html {
     overflow: auto;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -224,4 +225,23 @@ img {
     margin: 3px 5px 0px 3px;
     width: 92%;
     height: 100%;
+}
+
+/*Footer styling*/
+
+/*Setting footer dimensions, color, and font-size. Also creating a flexbox.*/
+
+footer {
+    height: 20vh;
+    display: flex;
+    background-color: #49c6e5;
+
+}
+
+footer div {
+    font-size: 0.7rem;
+    flex: 1 auto;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #00bd9d;
 }
