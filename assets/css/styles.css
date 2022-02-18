@@ -241,10 +241,16 @@ footer {
 footer div {
     font-size: 0.7rem;
     flex: 1 auto;
-    text-align: center;
     padding: 4px;
     border: 1px solid #00bd9d;
 }
+
+footer h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Footer site map styling*/
 
 footer ul {
     list-style: none;
@@ -263,12 +269,14 @@ footer li a {
 
 }
 
-footer h4 {
-    text-transform: uppercase;
-}
-
 /*Styles the page up arrow in the site map of the footer.*/
 .fa-arrow-circle-up {
     margin-left: 4px;
     color: blue;
+}
+
+/* Footer contact us styling*/
+
+div address {
+    line-height: 1.5;
 }
