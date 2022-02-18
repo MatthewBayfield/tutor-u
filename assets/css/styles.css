@@ -280,3 +280,15 @@ footer li a {
 div address {
     line-height: 1.5;
 }
+
+/*Follow us footer section styling*/
+
+#follow_us {
+    text-align: center;
+}
+
+#follow_us a {
+    line-height: 2;
+    color: blue;
+}
+
