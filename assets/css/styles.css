@@ -78,38 +78,26 @@ header {
 
 /*Nav element styling*/
 
+/*Creates a flexbox for the nav links*/
 nav {
     background-color: #49c6e5;
     border: 2px solid #00bd9d;
     font-size: 0.7rem;
     font-weight: 500;
     font-family: "Yantramanav", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-nav div {
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-nav a,
-nav h2 {
-    display: inline;
+nav span {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 0px 3px;
 }
 
 nav a {
     text-decoration: none;
     color: #000000;
-}
-
-nav span {
-    display: inline-block;
-    width: 40vw;
-    text-align: center;
-}
-
-/* The headings of these links require less space relative to the other link headings.*/
-.small_link {
-    width: 15vw;
 }
 
 /*Provides user feedback by indicating what page they are currently on*/
@@ -291,4 +279,3 @@ div address {
     line-height: 2;
     color: blue;
 }
-
