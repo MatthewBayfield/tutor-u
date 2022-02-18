@@ -281,13 +281,13 @@ div address {
     line-height: 1.5;
 }
 
-/*Follow us footer section styling*/
+/*Follow us, useful links footer section styling*/
 
-#follow_us {
+.footer_external_links {
     text-align: center;
 }
 
-#follow_us a {
+.footer_external_links a {
     line-height: 2;
     color: blue;
 }
