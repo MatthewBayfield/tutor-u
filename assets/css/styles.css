@@ -87,6 +87,7 @@ nav {
     font-family: "Yantramanav", sans-serif;
     display: flex;
     flex-wrap: wrap;
+    min-height: 5vh;
 }
 
 nav span {
@@ -165,8 +166,8 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 2px;
-    /*Height set to auto for the purpose of responsive design*/
-    height: auto;
+    /*min-height used for the purpose of responsive design*/
+    min-height: 50vh;
 }
 
 .first_column {
@@ -217,7 +218,7 @@ img {
 /*Setting footer dimensions, color, and font-size. Also creating a flexbox.*/
 
 footer {
-    height: 20vh;
+    min-height: 20vh;
     display: flex;
     background-color: #49c6e5;
 
