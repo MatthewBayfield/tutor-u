@@ -54,12 +54,12 @@
         <!--Tutor application form-->
         <section>
             <!--Form action and method is purely illustrative, form data is not collected.-->
-            <form id="tutor_application_form" action="form_response.html" method="get" target="_blank"
+            <form id="tutor_application_form" action="form_response.html" method="get"
                 name="tutor_application_form">
                 <fieldset name="personal_details">
                     <legend>Personal Details:</legend>
                     <label for="first_name">First Name:</label>
-                    <input id="first_name " type="text" required><br>
+                    <input id="first_name " type="text" name="first_name" required><br>
                     <label for="last_name">Last Name:</label>
                     <input id="last_name " type="text" name="last_name"><br>
                     <label for="email">Email Address:</label>
@@ -229,6 +229,8 @@
                         </li>
                     </ul>
                 </fieldset>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
 
             </form>
         </section>
