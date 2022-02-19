@@ -19,7 +19,7 @@ html {
 body {
     background-color: white;
     font-family: "Yantramanav";
-    font-weight: 500;
+    font-weight: 300;
 }
 
 /*header styling*/
@@ -220,6 +220,7 @@ footer {
     min-height: 20vh;
     display: flex;
     background-color: #49c6e5;
+    font-weight: 400;
 
 }
 
