@@ -11,7 +11,6 @@
 /*For mobile display sizes in portrait orientation*/
 
 /*auto overflow for the purpose of responsive design*/
-
 html {
     overflow: auto;
     scroll-behavior: smooth;
@@ -276,4 +275,75 @@ div address {
 .footer_external_links a {
     line-height: 2;
     color: blue;
+}
+
+/*Styling only for the application form page*/
+
+fieldset {
+    margin: 5px;
+}
+
+form,
+fieldset {
+    border: 2px solid #00bd9d;
+}
+
+input,
+textarea {
+    border: 1px solid #00bd9d;
+}
+
+fieldset ul {
+    list-style: none;
+}
+
+fieldset li {
+    margin: 0px;
+}
+
+fieldset>ul>li {
+    display: inline-block;
+}
+
+[name="personal_details"] *,
+[name="subjects_and_qualifications"] * {
+    padding: 3px;
+}
+
+input[type=text] {
+    width: 150px;
+}
+
+input[type=email] {
+    width: 200px;
+}
+
+input[type=submit],
+input[type=reset] {
+    padding: 4px;
+    background-color: #49c6e5;
+    border-radius: 10px;
+}
+
+/*To override inheritance of a grid layout through the main selector.*/
+#tutor_application_main {
+    display: block;
+}
+
+#tutor_application_form {
+    margin: 3px;
+}
+
+#tutor_application_form,
+legend,
+input,
+textarea,
+label {
+    margin: 3px;
+}
+
+/*centering heading*/
+#tutor_application_main>h2 {
+    width: fit-content;
+    margin: 0 auto;
 }
