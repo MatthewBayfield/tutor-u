@@ -5,24 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="A form to apply to be a voluntary tutor.">
+    <meta name="description" content="A form to apply to be a voluntary tutor.">
     <meta name="keywords" content="tutor form">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <title>Tutor Application Form</title>
 </head>
 
 <body id="page_top_application_form">
-     <!--Header-->
-     <header>
+    <!--Header-->
+    <header>
         <!--Use of a Font Awesome icon in logo, taken from https://fontawesome.com/icons/magnet?s=solid -->
         <div id="logo_container">
             <!--Added noscript element in case font awesome icon script is unavailable because JavaScript has been disabled.-->
             <h1>Tutor <i class="fa-solid fa-magnet"></i><noscript>U</noscript></h1>
         </div>
     </header>
-     <!--Main navigation links-->
-     <nav>
+    <!--Main navigation links-->
+    <nav>
         <span>
             <a href="index.html">
                 <h2>Home</h2>
@@ -49,6 +48,196 @@
             </a>
         </span>
     </nav>
+    <!--main page content-->
+    <main id="tutor_application_main">
+        <h2>Tutor Application Form</h2>
+        <!--Tutor application form-->
+        <section>
+            <!--Form action and method is purely illustrative, form data is not collected.-->
+            <form id="tutor_application_form" action="form_response.html" method="get" target="_blank"
+                name="tutor_application_form">
+                <fieldset name="personal_details">
+                    <legend>Personal Details:</legend>
+                    <label for="first_name">First Name:</label>
+                    <input id="first_name " type="text" required><br>
+                    <label for="last_name">Last Name:</label>
+                    <input id="last_name " type="text" name="last_name"><br>
+                    <label for="email">Email Address:</label>
+                    <input id="email" type="email" name="email">
+                </fieldset>
+                <fieldset name="subjects_and_qualifications">
+                    <legend>Choose your subjects:</legend>
+                    <label for="maths">Maths</label>
+                    <input type="checkbox" id="maths" name="maths" value="yes">
+                    <label for="physics">Physics</label>
+                    <input type="checkbox" id="physics" name="physics" value="yes">
+                    <label for="chemistry">Chemistry</label>
+                    <input type="checkbox" id="chemistry" name="chemistry" value="yes"><br>
+                    <label for="biology">Biology</label>
+                    <input type="checkbox" id="biology" name="biology" value="yes">
+                    <label for="engineering">Engineering</label>
+                    <input type="checkbox" id="engineering" name="engineering" value="yes">
+                    <label for="computer_science">Computer Science</label>
+                    <input type="checkbox" id="computer_science" name="computer_science" value="yes"><br>
+                    <label for="subject_expertise">Briefly describe your expertise in each subject:</label><br>
+                    <textarea name="subject_expertise" id="subject_expertise"
+                        placeholder="e.g. A-level in Biology, Chemistry undergraduate, working engineer, retired science teacher."
+                        cols="29" rows="6" required></textarea>
+                </fieldset>
+                <fieldset name="tutor_days_and_times">
+                    <legend>Choose the days and times you can tutor:</legend>
+                    <ul>
+                        <li>
+                            Monday
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="four-to-five" name="four-to-five" value="16:00-17:00">
+                                    <label for="four-to-five">16:00-17:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="five-to-six" name="five-to-six" value="17:00-18:00">
+                                    <label for="five-to-six">17:00-18:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="six-to-seven" name="six-to-seven" value="18:00-19:00">
+                                    <label for="six-to-seven">18:00-19:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="seven-to-eight" name="seven-to-eight"
+                                        value="19:00-20:00">
+                                    <label for="seven-to-eight">19:00-20:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="eight-to-nine" name="eight-to-nine" value="20:00-21:00">
+                                    <label for="eight-to-nine">20:00-21:00</label>
+                                </li>
+                            </ul>
+                        </li><li>
+                            Tuesday
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="four-to-five" name="four-to-five" value="16:00-17:00">
+                                    <label for="four-to-five">16:00-17:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="five-to-six" name="five-to-six" value="17:00-18:00">
+                                    <label for="five-to-six">17:00-18:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="six-to-seven" name="six-to-seven" value="18:00-19:00">
+                                    <label for="six-to-seven">18:00-19:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="seven-to-eight" name="seven-to-eight"
+                                        value="19:00-20:00">
+                                    <label for="seven-to-eight">19:00-20:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="eight-to-nine" name="eight-to-nine" value="20:00-21:00">
+                                    <label for="eight-to-nine">20:00-21:00</label>
+                                </li>
+                            </ul>
+                        </li><li>
+                            Wednesday
+                            <ul><li>
+                                    <input type="checkbox" id="four-to-five" name="four-to-five" value="16:00-17:00">
+                                    <label for="four-to-five">16:00-17:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="five-to-six" name="five-to-six" value="17:00-18:00">
+                                    <label for="five-to-six">17:00-18:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="six-to-seven" name="six-to-seven" value="18:00-19:00">
+                                    <label for="six-to-seven">18:00-19:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="seven-to-eight" name="seven-to-eight"
+                                        value="19:00-20:00">
+                                    <label for="seven-to-eight">19:00-20:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="eight-to-nine" name="eight-to-nine" value="20:00-21:00">
+                                    <label for="eight-to-nine">20:00-21:00</label>
+                                </li>
+                            </ul>
+                        </li><li>
+                            Thursday
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="four-to-five" name="four-to-five" value="16:00-17:00">
+                                    <label for="four-to-five">16:00-17:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="five-to-six" name="five-to-six" value="17:00-18:00">
+                                    <label for="five-to-six">17:00-18:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="six-to-seven" name="six-to-seven" value="18:00-19:00">
+                                    <label for="six-to-seven">18:00-19:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="seven-to-eight" name="seven-to-eight"
+                                        value="19:00-20:00">
+                                    <label for="seven-to-eight">19:00-20:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="eight-to-nine" name="eight-to-nine" value="20:00-21:00">
+                                    <label for="eight-to-nine">20:00-21:00</label>
+                                </li>
+                            </ul>
+                        </li><li>
+                            Friday
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="four-to-five" name="four-to-five" value="16:00-17:00">
+                                    <label for="four-to-five">16:00-17:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="five-to-six" name="five-to-six" value="17:00-18:00">
+                                    <label for="five-to-six">17:00-18:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="six-to-seven" name="six-to-seven" value="18:00-19:00">
+                                    <label for="six-to-seven">18:00-19:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="seven-to-eight" name="seven-to-eight"
+                                        value="19:00-20:00">
+                                    <label for="seven-to-eight">19:00-20:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="eight-to-nine" name="eight-to-nine" value="20:00-21:00">
+                                    <label for="eight-to-nine">20:00-21:00</label>
+                                </li>
+                            </ul>
+                        </li><li>
+                            Saturday
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="twelve-to-one" name="twelve-to-one" value="12:00-13:00">
+                                    <label for="twelve-to-one">12:00-13:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="one-to-two" name="one-to-two" value="13:00-14:00">
+                                    <label for="one-two">13:00-14:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="two-to-three" name="two-to-three" value="14:00-15:00">
+                                    <label for="two-to-three">14:00-15:00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="three-to-four" name="three-to-four" value="15:00-16:00">
+                                    <label for="three-to-four">15:00-16:00</label>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <div>
