@@ -1,5 +1,5 @@
 /*imports google font stylesheet*/
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&family=Yantramanav:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400&family=News+Cycle&family=Yantramanav:wght@300;400;500&display=swap');
 
 /*Removes browser padding/margin/border box sizing*/
 * {
@@ -18,8 +18,8 @@ html {
 
 body {
     background-color: white;
-    font-family: "Yantramanav", sans-serif;
-    font-weight: 300;
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
 }
 
 /*header styling*/
@@ -53,8 +53,8 @@ header {
 }
 
 #logo_container>h1 {
-    font-family: "IBM Plex Serif", "serif";
-    font-weight: 500;
+    font-family: "Barlow Semi Condensed",  sans serif;
+    font-weight: 400;
     font-size: 3rem;
     line-height: 0.8;
     color: #fffbfa;
@@ -83,8 +83,8 @@ nav {
     background-color: #01748d;
     border: 2px solid #00bd9d;
     font-size: 0.7rem;
-    font-weight: 500;
-    font-family: "Yantramanav", sans-serif;
+    font-weight: 300;
+    font-family: "Barlow Semi Condensed", sans-serif;
     display: flex;
     flex-wrap: wrap;
     min-height: 5vh;
@@ -369,7 +369,8 @@ label {
 #tutor_booking_main>h2 {
     width: fit-content;
     margin: 5px auto;
-    font-family: IBM Plex serif;
+    font-family: Barlow Semi Condensed, sans-serif;
+    font-weight: 300;
 }
 
 /*form_response styling*/
@@ -405,7 +406,7 @@ label {
 
 #response>h2 {
     font-size: large;
-    font-family: "IBM Plex Serif", serif;
+    font-family: "Barlow Semi Condensed", sans serif;
     text-transform: uppercase;
     font-weight: 300;
 
