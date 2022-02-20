@@ -278,7 +278,7 @@ div address {
     color: blue;
 }
 
-/*Styling only for the application form page*/
+/*Styling only for the application and booking form pages*/
 
 fieldset {
     margin: 5px;
@@ -307,7 +307,7 @@ fieldset>ul>li {
 }
 
 [name="personal_details"] *,
-[name="subjects_and_qualifications"] * {
+[name^="subjects"] * {
     padding: 3px;
 }
 
@@ -327,15 +327,18 @@ input[type=reset] {
 }
 
 /*To override inheritance of a grid layout through the main selector.*/
-#tutor_application_main {
+#tutor_application_main,
+#tutor_booking_main {
     display: block;
 }
 
-#tutor_application_form {
+#tutor_application_form,
+#tutor_booking_form {
     margin: 3px;
 }
 
 #tutor_application_form,
+#tutor_booking_form,
 legend,
 input,
 textarea,
@@ -343,10 +346,23 @@ label {
     margin: 3px;
 }
 
-/*centering heading*/
-#tutor_application_main>h2 {
+#tutor_booking_main>p {
+    font-size: 0.9rem;
     width: fit-content;
-    margin: 0 auto;
+    margin: 3px auto;
+    padding: 0 8px;
+}
+
+#tutor_booking_main a {
+    color: inherit;
+}
+
+/*centering heading*/
+#tutor_application_main>h2,
+#tutor_booking_main>h2 {
+    width: fit-content;
+    margin: 5px auto;
+    font-family: IBM Plex serif;
 }
 
 /*form_response styling*/
