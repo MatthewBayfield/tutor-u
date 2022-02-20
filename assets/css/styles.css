@@ -1,6 +1,8 @@
 /*imports google font stylesheet*/
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400&family=News+Cycle&family=Yantramanav:wght@300;400;500&display=swap');
 
+/*Styling, to different degrees, common to all pages*/
+
 /*Removes browser padding/margin/border box sizing*/
 * {
     padding: 0;
@@ -373,7 +375,7 @@ label {
     font-weight: 300;
 }
 
-/*form_response styling*/
+/*form_response only styling*/
 
 /*Overrides the inherited grid layout, and expands the main setion height by the missing nav height.*/
 #submission_form {
@@ -416,4 +418,26 @@ label {
     text-decoration: none;
     color: inherit;
 
+}
+
+/*Timetable styling only*/
+
+/*Overrides the inherited grid layout*/
+#timetable {
+    display: block;
+}
+
+#timetable>h2 {
+    width: fit-content;
+    margin: 5px auto;
+    font-family: Barlow Semi Condensed, sans-serif;
+    font-weight: 300;
+}
+
+#timetable>p {
+    font-size: 0.8rem;
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+    text-justify: inter-word;
 }
