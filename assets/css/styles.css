@@ -39,7 +39,7 @@ header {
     top: calc(50% - 24px);
     left: calc(50% - 91px);
     /*Allows logo to be more visible, still allowing the background image to also be partially visible.*/
-    background-color: rgba(84, 222, 253, 0.8);
+    background-color: rgb(1,116,141, 0.8);
     padding: 5px;
     border-radius: 15px;
     border: 3px solid #00bd9d;
@@ -57,7 +57,7 @@ header {
     font-weight: 500;
     font-size: 3rem;
     line-height: 0.8;
-    color: #000000;
+    color: #fffbfa;
 }
 
 /*On page loading, expands and contracts the logo and its container, and outlines with a border temporarily.*/
@@ -80,7 +80,7 @@ header {
 
 /*Creates a flexbox for the nav links*/
 nav {
-    background-color: #49c6e5;
+    background-color: #01748d;
     border: 2px solid #00bd9d;
     font-size: 0.7rem;
     font-weight: 500;
@@ -98,7 +98,7 @@ nav span {
 
 nav a {
     text-decoration: none;
-    color: #000000;
+    color: #fffbfa;
 }
 
 /*Provides user feedback by indicating what page they are currently on*/
@@ -154,7 +154,7 @@ main section>a {
     text-align: center;
     display: block;
     font-size: larger;
-    color: blue;
+    color: #00bd9d;
 }
 
 
@@ -220,7 +220,7 @@ img {
 footer {
     min-height: 20vh;
     display: flex;
-    background-color: #49c6e5;
+    background-color: #01748d;
     font-weight: 400;
 
 }
@@ -230,6 +230,7 @@ footer div {
     flex: 1 auto;
     padding: 4px;
     border: 1px solid #00bd9d;
+    color: #fffbfa;
 }
 
 footer h4 {
@@ -252,14 +253,13 @@ footer li {
 footer li a {
     text-decoration: underline;
     text-decoration-color: #00bd9d;
-    color: #000000;
-
+    color: inherit;
 }
 
 /*Styles the page up arrow in the site map of the footer.*/
 .fa-arrow-circle-up {
     margin-left: 4px;
-    color: blue;
+    color: #00bd9d;
 }
 
 /* Footer contact us styling*/
@@ -276,9 +276,13 @@ div address {
 
 .footer_external_links a {
     line-height: 2;
-    color: blue;
+    color: inherit;
+    text-decoration-color: #00bd9d;
 }
 
+.footer_external_links i {
+    color: #00bd9d;
+}
 /*Styling only for the application and booking form pages*/
 
 fieldset {
