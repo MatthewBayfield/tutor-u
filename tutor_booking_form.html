@@ -65,20 +65,20 @@
                     <label for="email">Email Address:</label>
                     <input id="email" type="email" name="email">
                 </fieldset>
-                <fieldset name="subjects_and_qualifications">
-                    <legend>Choose your subjects:</legend>
+                <fieldset name="subjects_and_topic_descriptions">
+                    <legend>Choose a subject to be tutored in:</legend>
                     <label for="maths">Maths</label>
-                    <input type="checkbox" id="maths" name="maths" value="yes">
+                    <input type="radio" id="maths" name="session_subject" value="maths" required>
                     <label for="physics">Physics</label>
-                    <input type="checkbox" id="physics" name="physics" value="yes">
+                    <input type="radio" id="physics" name="session_subject" value="physics">
                     <label for="chemistry">Chemistry</label>
-                    <input type="checkbox" id="chemistry" name="chemistry" value="yes"><br>
+                    <input type="radio" id="chemistry" name="session_subject" value="chemistry"><br>
                     <label for="biology">Biology</label>
-                    <input type="checkbox" id="biology" name="biology" value="yes">
+                    <input type="radio" id="biology" name="session_subject" value="biology">
                     <label for="engineering">Engineering</label>
-                    <input type="checkbox" id="engineering" name="engineering" value="yes">
+                    <input type="radio" id="engineering" name="session_subject" value="engineering">
                     <label for="computer_science">Computer Science</label>
-                    <input type="checkbox" id="computer_science" name="computer_science" value="yes"><br>
+                    <input type="radio" id="computer_science" name="session_subject" value="computer_science"><br>
                     <label for="subject_expertise">Briefly describe your expertise in each subject:</label><br>
                     <textarea name="subject_expertise" id="subject_expertise"
                         placeholder="e.g. A-level in Biology, Chemistry undergraduate, working engineer, retired science teacher."
