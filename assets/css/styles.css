@@ -583,3 +583,7 @@ details>a {
     height: 100%;
     object-fit: contain;
 }
+
+#more_information_main a {
+    color: inherit;
+}
