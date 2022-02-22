@@ -577,3 +577,9 @@ details>a {
     text-align: justify;
     text-justify: inter-word;
 }
+
+#more_information_main img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
