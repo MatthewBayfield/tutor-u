@@ -423,6 +423,20 @@ label {
 
 /*Timetable styling only*/
 
+/*Allows the sticky times column to slide over and be seen over the other table columns if and when the table becomes x-scrollable.*/
+table * {
+    position: relative;
+    left: 0px;
+    z-index: 0;
+}
+
+caption {
+    color: #000000;
+    margin-top: 5px;
+    text-align: left;
+    width: fit-content;
+}
+
 .mon_to_fri_table,
 .saturday {
     font-family: "Barlow Semi Condensed", sans-serif;
@@ -433,17 +447,19 @@ label {
     padding: 5px;
 }
 
-caption {
-    color: #000000;
-    margin-top: 5px;
-    text-align: left;
-    width: fit-content;
-}
-
+/*Makes the table effectively scrollable in the case of overflow in the x-direction. Enables responsivity*/
 .table_container {
     overflow-x: scroll;
     padding: 6px;
     margin: 5px;
+}
+
+/*Makes the times column sticky and also display infront of other columns as it sticks and slides over them when scrolling in the x-direction.*/
+.sticky {
+    position: sticky;
+    left: 0px;
+    z-index: 1;
+    background-color: #01748d;
 }
 
 td[headers],
@@ -453,6 +469,7 @@ th[id] {
     border: 2px solid #00bd9d;
     border-collapse: collapse;
 }
+
 /*Overrides the inherited grid layout*/
 #timetable {
     display: block;
