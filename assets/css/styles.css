@@ -517,6 +517,16 @@ th[id] {
     display: block;
 }
 
+/*Sets h4 headings within summary element to have inline display, so that they lie on the same line as the detail element toggles.*/
+#faq_main h4 {
+    display: inline;
+}
+
+#faq_main>section,
+#faq_main details {
+    margin: 10px;
+}
+
 #faq_main>h2 {
     width: fit-content;
     margin: 5px auto;
