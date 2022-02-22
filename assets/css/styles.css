@@ -512,6 +512,10 @@ th[id] {
 
 /*FAQ styling only*/
 
+details>a {
+    color: inherit;
+}
+
 /*Overrides the inherited grid layout*/
 #faq_main {
     display: block;
