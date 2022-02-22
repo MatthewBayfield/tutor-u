@@ -41,7 +41,7 @@ header {
     top: calc(50% - 24px);
     left: calc(50% - 91px);
     /*Allows logo to be more visible, still allowing the background image to also be partially visible.*/
-    background-color: rgb(1,116,141, 0.8);
+    background-color: rgb(1, 116, 141, 0.8);
     padding: 5px;
     border-radius: 15px;
     border: 3px solid #00bd9d;
@@ -55,7 +55,7 @@ header {
 }
 
 #logo_container>h1 {
-    font-family: "Barlow Semi Condensed",  sans serif;
+    font-family: "Barlow Semi Condensed", sans serif;
     font-weight: 400;
     font-size: 3rem;
     line-height: 0.8;
@@ -287,6 +287,7 @@ div address {
 .footer_external_links i {
     color: #00bd9d;
 }
+
 /*Styling only for the application and booking form pages*/
 
 fieldset {
@@ -422,6 +423,36 @@ label {
 
 /*Timetable styling only*/
 
+.mon_to_fri_table,
+.saturday {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fffbfa;
+    background-color: #01748d;
+    padding: 5px;
+}
+
+caption {
+    color: #000000;
+    margin-top: 5px;
+    text-align: left;
+    width: fit-content;
+}
+
+.table_container {
+    overflow-x: scroll;
+    padding: 6px;
+    margin: 5px;
+}
+
+td[headers],
+th[headers],
+td[id],
+th[id] {
+    border: 2px solid #00bd9d;
+    border-collapse: collapse;
+}
 /*Overrides the inherited grid layout*/
 #timetable {
     display: block;
