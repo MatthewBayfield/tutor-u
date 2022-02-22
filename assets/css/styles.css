@@ -523,3 +523,11 @@ th[id] {
     font-family: Barlow Semi Condensed, sans-serif;
     font-weight: 300;
 }
+
+#faq_main>p {
+    font-size: 0.8rem;
+    margin: 5px auto;
+    padding: 5px;
+    width: fit-content;
+    text-align: center;
+}
