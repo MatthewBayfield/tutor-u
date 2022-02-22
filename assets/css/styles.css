@@ -553,6 +553,22 @@ details>a {
     display: block;
 }
 
+#more_information_main>h2 {
+    font-family: Barlow Semi Condensed, sans-serif;
+    font-weight: 300;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+#more_information_main h3 {
+    margin: 5px auto;
+    padding: 0 5px;
+    width: fit-content;
+    font-size: 1rem;
+    border: 1px solid #00bd9d;
+    border-radius: 10px;
+}
+
 #more_information_main p {
     font-size: 0.8rem;
     margin: 5px auto;
