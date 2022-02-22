@@ -545,3 +545,19 @@ details>a {
     width: fit-content;
     text-align: center;
 }
+
+/*more information styling only*/
+
+/*Overrides the inherited grid layout*/
+#more_information_main {
+    display: block;
+}
+
+#more_information_main p {
+    font-size: 0.8rem;
+    margin: 5px auto;
+    padding: 10px 20px;
+    width: fit-content;
+    text-align: justify;
+    text-justify: inter-word;
+}
