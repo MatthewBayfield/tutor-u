@@ -170,7 +170,7 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 2px;
-    /*min-height used for the purpose of responsive design*/
+    /*min-height used for the purpose of responsive design: keeps footer at the bottom of the page always.*/
     min-height: 50vh;
 }
 
@@ -586,4 +586,44 @@ details>a {
 
 #more_information_main a {
     color: inherit;
+}
+
+/*For mobile display sizes in landscape orientation*/
+
+@media screen and (orientation: landscape) {
+
+    /* For index.html*/
+
+    /*Change to grid template row size to 70%: gets rid of large space between footer and main bottom.*/
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 70% 1fr;
+        grid-column-gap: 2px;
+        /*min-height used for the purpose of responsive design*/
+        min-height: 50vh;
+    }
+
+    /*For all pages*/
+
+    /*same code as for portrait but change to top absolute position, to make it higher.*/
+    #logo_container {
+        position: absolute;
+        /*calculates the insets necessary for centering the box, effectively as a function of viewport size, which varies with orientation and screen size. 
+        The absolute size being substracted is equal to approximately half the box width or height.*/
+        top: calc(50% - 35px);
+        left: calc(50% - 91px);
+        /*Allows logo to be more visible, still allowing the background image to also be partially visible.*/
+        background-color: rgb(1, 116, 141, 0.8);
+        padding: 5px;
+        border-radius: 15px;
+        border: 3px solid #00bd9d;
+        /*logo  expansion animation*/
+        animation-name: logo_expand;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+        animation-duration: 2s;
+        animation-timing-function: cubic-bezier(0.42, 0, 0.38, 1.16);
+    
+    }
 }
