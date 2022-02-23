@@ -494,14 +494,15 @@ th[id] {
     text-justify: inter-word;
 }
 
-#table_bottom_links span {
+.table_bottom_links span {
     margin: 0px 5px;
     font-size: 0.8rem;
     padding: 10px;
 }
 
-#table_bottom_links a {
+.table_bottom_links a {
     color: inherit;
+    margin: 0 5px;
 }
 
 #table_links a {
@@ -624,6 +625,5 @@ details>a {
         animation-iteration-count: 1;
         animation-duration: 2s;
         animation-timing-function: cubic-bezier(0.42, 0, 0.38, 1.16);
-    
     }
 }
