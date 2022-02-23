@@ -661,4 +661,10 @@ details>a {
         font-size: 5rem;
     }
 
+    /*nav element*/
+
+    /*increase font-size to fill space*/
+    nav {
+        font-size: 0.9rem;
+    }
 }
