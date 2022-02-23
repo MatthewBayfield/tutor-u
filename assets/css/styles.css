@@ -667,4 +667,33 @@ details>a {
     nav {
         font-size: 0.9rem;
     }
+
+    /*footer element*/
+
+    /*increase font-size to fill space*/
+
+    footer div {
+        font-size: 0.9rem;
+    }
+
+    /*main section*/
+
+    /*increase font-size to fill space, make more readable*/
+
+    main>h2 {
+        font-size: 3rem;
+    }
+
+    main section,
+    #timetable>p,
+    #more_information_main p,
+    #faq_main>p,
+    #tutor_booking_main>p {
+        font-size: 1rem;
+    }
+
+    #more_information_main h3,
+    main section h3 {
+        font-size: 1.5rem;
+    }
 }
