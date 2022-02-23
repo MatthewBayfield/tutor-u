@@ -697,3 +697,11 @@ details>a {
         font-size: 1.5rem;
     }
 }
+
+/*FAQ page*/
+
+    /*increase font-size to fill space, make more readable*/
+
+    #faq_main h4 {
+        font-size: 1.35rem;
+    }
