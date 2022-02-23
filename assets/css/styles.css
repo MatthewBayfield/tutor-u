@@ -627,3 +627,19 @@ details>a {
         animation-timing-function: cubic-bezier(0.42, 0, 0.38, 1.16);
     }
 }
+
+ /*For tablet display sizes (min-width:560px and min-height:775px) in portrait orientation*/
+
+ @media screen and (min-width: 560px) and (min-height: 775px) and (orientation: portrait) {
+    /* For index.html*/
+
+    /*Change to grid template row size to 70%: gets rid of large space between footer and main bottom.*/
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 70% 1fr;
+        grid-column-gap: 2px;
+        /*min-height used for the purpose of responsive design*/
+        min-height: 50vh;
+    }
+ }
