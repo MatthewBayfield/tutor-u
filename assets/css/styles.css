@@ -28,7 +28,7 @@ body {
 
 header {
     height: 25vh;
-    width: 100vw;
+    width: 100%;
     background: url("../images/girl_being_tutored_online.jpg") center / cover no-repeat, #00bd9d;
     position: relative;
     margin-bottom: 1px;
