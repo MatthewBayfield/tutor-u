@@ -289,6 +289,12 @@ div address {
     color: #00bd9d;
 }
 
+address+.footer_external_links {
+    border: none;
+    margin-top: 6px;
+    text-align: left;
+}
+
 /*Styling only for the application and booking form pages*/
 
 fieldset {
