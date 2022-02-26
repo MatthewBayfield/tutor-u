@@ -604,6 +604,71 @@ details>a {
     color: inherit;
 }
 
+/*Logo and logo container responsive design media queries all pages*/
+
+/*screens of max height 400px*/
+@media screen and (max-height: 400px) {
+    #logo_container {
+        top: calc(50% - 30px);
+        left: calc(50% - 70px);
+    }
+
+    #logo_container>h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-height: 400px) and (min-width: 210px) {
+    #logo_container>h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (min-height: 500px) and (min-width: 260px) {
+    #logo_container>h1 {
+        font-size: 4rem;
+    }
+    #logo_container {
+        top: calc(50% - 35px);
+        left: calc(50% - 100px);
+    }
+}
+
+@media screen and (min-height: 600px) and (min-width: 305px) {
+    #logo_container>h1 {
+        font-size: 4.5rem;
+    }
+
+    #logo_container {
+        top: calc(50% - 42px);
+        left: calc(50% - 122px);
+    }
+}
+
+@media screen and (min-height: 700px) and (min-width: 370px) {
+    #logo_container>h1 {
+        font-size: 5.5rem;
+    }
+
+    #logo_container {
+        top: calc(50% - 50px);
+        left: calc(50% - 146px);
+    }
+}
+
+@media screen and (min-height: 1200px) and (min-width: 400px) {
+    #logo_container>h1 {
+        font-size: 6.5rem;
+    }
+
+    #logo_container {
+        top: calc(50% - 50px);
+        left: calc(50% - 170px);
+    }
+}
+
+/*Main, nav and footer media queries all pages*/
+
 /* Screens of width at least 500px*/
 
 @media screen and (min-width: 500px) {
@@ -628,9 +693,6 @@ details>a {
 /*Screens of at least width 750px*/
 
 @media screen and (min-width: 750px) {
-    #logo_container>h1 {
-        font-size: 3.5rem;
-    }
 
     nav,
     footer div {
@@ -647,7 +709,6 @@ details>a {
 
     picture[class="second_column first_row"]>img {
         max-height: 500px;
-        ;
     }
 
     main {
@@ -697,93 +758,15 @@ details>a {
 
 }
 
-/*For mobile display sizes in landscape orientation*/
 
-@media screen and (orientation: landscape) {
 
-    /* For index.html*/
-
-    /*Change to grid template row size to 7fr:3fr: gets rid of large space between footer and main bottom.*/
-    /* main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 7fr 3fr;
-        grid-column-gap: 2px; */
-    /*min-height used for the purpose of responsive design*/
-    /* min-height: 50vh;
-    } */
-
-    /*For all pages*/
-
-    /*same code as for portrait but change to top absolute position, to make it higher.*/
-    #logo_container {
-        position: absolute;
-        /*calculates the insets necessary for centering the box, effectively as a function of viewport size, which varies with orientation and screen size. 
-        The absolute size being substracted is equal to approximately half the box width or height.*/
-        top: calc(50% - 35px);
-        left: calc(50% - 91px);
-        /*Allows logo to be more visible, still allowing the background image to also be partially visible.*/
-        background-color: rgb(1, 116, 141, 0.8);
-        padding: 5px;
-        border-radius: 15px;
-        border: 3px solid #00bd9d;
-        /*logo  expansion animation*/
-        animation-name: logo_expand;
-        animation-direction: alternate;
-        animation-iteration-count: 1;
-        animation-duration: 2s;
-        animation-timing-function: cubic-bezier(0.42, 0, 0.38, 1.16);
-    }
-}
-
-/*For tablet display sizes (min-width:560px and min-height:775px) in portrait orientation*/
+/*For display sizes: (min-width:560px and min-height:775px) in portrait orientation*/
 
 @media screen and (min-width: 560px) and (min-height: 775px) and (orientation: portrait) {
-    /* For index.html*/
-
-    /*Change to grid template row size to 7fr:3fr: gets rid of large space between footer and main bottom.*/
-    /* main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 7fr 3fr;
-        grid-column-gap: 2px; */
-    /*min-height used for the purpose of responsive design*/
-    /* min-height: 50vh;
-    } */
 
     /*For all pages*/
 
-    /*Logo size and consequent position calculation shift*/
-
-    /*Change the calc() due to change in logo size.*/
-    #logo_container {
-        position: absolute;
-        /*calculates the insets necessary for centering the box, effectively as a function of viewport size, which varies with orientation and screen size. 
-        The absolute size being substracted is equal to approximately half the box width or height.*/
-        top: calc(50% - 24px);
-        left: calc(50% - 134px);
-    }
-
-    /*Increase logo size.*/
-    #logo_container>h1 {
-        font-size: 5rem;
-    }
-
-    /*nav element*/
-
-    /*increase font-size to fill space*/
-    /* nav {
-        font-size: 0.9rem;
-    } */
-
-    /*footer element*/
-
-    /*increase font-size to fill space*/
-
-    /* footer div {
-        font-size: 0.9rem;
-    } */
-
+    
     /*main section*/
 
     /*increase font-size to fill space, make more readable*/
