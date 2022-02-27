@@ -105,7 +105,7 @@ nav a {
 
 /*Provides user feedback by indicating what page they are currently on*/
 .active {
-    color: #fffbfa;
+    color: #000000;
     background-color: #49c6e5;
     border: 2px solid #00bd9d;
     border-radius: 15px;
