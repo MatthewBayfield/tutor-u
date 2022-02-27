@@ -545,6 +545,7 @@ details>a {
     margin: 5px auto;
     font-family: Barlow Semi Condensed, sans-serif;
     font-weight: 300;
+    font-size: 1.5rem;
 }
 
 #faq_main>p {
@@ -673,8 +674,9 @@ details>a {
 
 /*Screens of width at least 400px*/
 
-/*form pages*/
 @media screen and (min-width: 400px) {
+
+    /*form pages*/
 
     #tutor_booking_main>h2,
     #tutor_application_main>h2 {
@@ -685,8 +687,16 @@ details>a {
         font-size: 1rem;
     }
 
-}
+    /*FAQ page*/
 
+    #faq_main>h2 {
+        font-size: 2rem;
+    }
+
+    #faq_main>p {
+        font-size: 0.9rem;
+    }
+}
 
 /* Screens of width at least 500px*/
 
@@ -701,6 +711,16 @@ details>a {
     #tutor_booking_main>h2,
     #tutor_application_main>h2 {
         font-size: 3rem;
+    }
+
+     /*FAQ page*/
+
+     #faq_main>h2 {
+        font-size: 2.5rem;
+    }
+
+    #faq_main>p {
+        font-size: 0.95rem;
     }
 
 }
@@ -725,10 +745,20 @@ details>a {
         font-size: 1.2rem;
     }
 
-     #tutor_booking_main>h2,
-     #tutor_application_main>h2 {
-         font-size: 3.5rem;
-     }
+    #tutor_booking_main>h2,
+    #tutor_application_main>h2 {
+        font-size: 3.5rem;
+    }
+
+     /*FAQ page*/
+
+     #faq_main>h2 {
+        font-size: 3rem;
+    }
+
+    #faq_main>p {
+        font-size: 1rem;
+    }
 
 }
 
@@ -772,6 +802,11 @@ details>a {
         font-size: 1.4rem;
     }
 
+    /*FAQ page*/
+    #faq_main>p {
+        font-size: 1.5rem;
+    }
+
 }
 
 /*For screens of at least width 910px*/
@@ -792,6 +827,16 @@ details>a {
     /*Form pages*/
     #tutor_booking_main>p {
         font-size: 1.5rem;
+    }
+
+     /*FAQ page*/
+
+     #faq_main>h2 {
+        font-size: 3.5rem;
+    }
+
+    #faq_main>p {
+        font-size: 1.6rem;
     }
 }
 
@@ -825,14 +870,24 @@ details>a {
         max-height: 640px;
     }
 
-     /*Form pages*/
-     #tutor_booking_main>p {
-         font-size: 1.7rem;
-     }
+    /*Form pages*/
+    #tutor_booking_main>p {
+        font-size: 1.7rem;
+    }
 
-     #tutor_booking_main>h2,
+    #tutor_booking_main>h2,
     #tutor_application_main>h2 {
         font-size: 4.5rem;
+    }
+
+     /*FAQ page*/
+
+     #faq_main>h2 {
+        font-size: 4rem;
+    }
+
+    #faq_main>p {
+        font-size: 2rem;
     }
 
 }
@@ -851,10 +906,27 @@ details>a {
 
 @media screen and (min-width: 1400px) {
 
+    /*all pages*/
+    nav,
+    footer div,
+    main section {
+        font-size: 1.7rem;
+    }
+
     /*form pages*/
     #tutor_booking_main>h2,
     #tutor_application_main>h2 {
         font-size: 5rem;
+    }
+
+     /*FAQ page*/
+
+     #faq_main>h2 {
+        font-size: 5rem;
+    }
+
+    #faq_main>p {
+        font-size: 2.3rem;
     }
 
 }
