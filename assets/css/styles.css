@@ -384,6 +384,12 @@ label {
     font-size: 2rem;
 }
 
+#tutor_booking_form>fieldset>p {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
 /*form_response only styling*/
 
 /*Overrides the inherited grid layout, and expands the main setion height by the missing nav height.*/
