@@ -628,6 +628,7 @@ details>a {
     #logo_container>h1 {
         font-size: 4rem;
     }
+
     #logo_container {
         top: calc(50% - 35px);
         left: calc(50% - 100px);
@@ -758,6 +759,16 @@ details>a {
 
 }
 
+/*Screens with height or width of at least 1000px*/
+
+/* Change of background image for wider screens with large width:height aspect ratio*/
+@media screen and (min-height: 1000px),
+(min-width: 1000px) {
+    header {
+        background: url("../images/maths_on_whiteboard.jpg") center / cover no-repeat, #00bd9d;
+    }
+}
+
 
 
 /*For display sizes: (min-width:560px and min-height:775px) in portrait orientation*/
@@ -766,7 +777,7 @@ details>a {
 
     /*For all pages*/
 
-    
+
     /*main section*/
 
     /*increase font-size to fill space, make more readable*/
