@@ -721,9 +721,9 @@ details>a {
         font-size: 3rem;
     }
 
-     /*FAQ page*/
+    /*FAQ page*/
 
-     #faq_main>h2 {
+    #faq_main>h2 {
         font-size: 2.5rem;
     }
 
@@ -758,9 +758,9 @@ details>a {
         font-size: 3.5rem;
     }
 
-     /*FAQ page*/
+    /*FAQ page*/
 
-     #faq_main>h2 {
+    #faq_main>h2 {
         font-size: 3rem;
     }
 
@@ -833,13 +833,19 @@ details>a {
     }
 
     /*Form pages*/
+
+    input[type=submit],
+    input[type=reset] {
+        font-size: 1.8rem;
+    }
+
     #tutor_booking_main>p {
         font-size: 1.5rem;
     }
 
-     /*FAQ page*/
+    /*FAQ page*/
 
-     #faq_main>h2 {
+    #faq_main>h2 {
         font-size: 3.5rem;
     }
 
@@ -888,9 +894,9 @@ details>a {
         font-size: 4.5rem;
     }
 
-     /*FAQ page*/
+    /*FAQ page*/
 
-     #faq_main>h2 {
+    #faq_main>h2 {
         font-size: 4rem;
     }
 
@@ -922,14 +928,20 @@ details>a {
     }
 
     /*form pages*/
+
+    input[type=submit],
+    input[type=reset] {
+        font-size: 2.5rem;
+    }
+
     #tutor_booking_main>h2,
     #tutor_application_main>h2 {
         font-size: 5rem;
     }
 
-     /*FAQ page*/
+    /*FAQ page*/
 
-     #faq_main>h2 {
+    #faq_main>h2 {
         font-size: 5rem;
     }
 
