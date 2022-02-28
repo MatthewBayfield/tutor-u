@@ -608,14 +608,14 @@ details>a {
 #more_information_main picture {
     width: 100%;
     max-height: none;
+    display: block;
 }
 
 #more_information_main img {
-    width: 100%;
+    max-width: 100%;
     object-fit: contain;
     margin: 0;
     padding: 0;
-    max-width: none;
     max-height: none;
 }
 
