@@ -1,108 +1,45 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Tutor U
+##Site Overview
+The Tutor U site in part provides advertisement and information for a free, voluntary tutor based, online, on-demand tutoring scheme operated by a non-profit organisation. The tutoring is offered in core STEM subjects, and voluntary tutors register to tutor as often as they like each week, and provide arranged one hour video call sessions with a student seeking help in a core STEM subject. 
 
-Welcome MatthewBayfield,
+Additionally the site provides the means by which potential voluntary tutors apply to become a tutor and they can provide the days and times during a week they wish to tutor, and in what subjects. The site also provides the ability for students to book a session with an avaialble tutor and specify the topic and or problem they would like to discuss in advance.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+##Design Process
+###Stratergy
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+####Target Audience:
+The primary audiences are firstly secondary school and sixth from college students seeking tutoring in STEM subjects; and secondly individuals looking to become voluntary tutors in STEM subjects.
 
-## Gitpod Reminders
+####User needs:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#####For students:
+Desire affordable on-demand tutoring, that is easily accessible, tailored to them as individuals, and of good quality.
+#####For Tutors:
+Are seeking volunteering opportunities in tutoring in order to aid other students in their education, and or gain valuable experience as well as skills amenable with self-development and obtaining a job. A particular subset of this  group of users may want to gain an insight into the field of teaching, with the goal of becoming professional teachers or paid tutors.
 
-`python3 -m http.server`
+####Site owners needs:
+A non-profit organisation that after taking inspiration from existing tutoring schemes that seek to provide free tutoring in STEM subjects, want to create their own scheme, but make it more accessible; they aim to do this by hosting the tutoring online. A secondary desire for the organisation is to provide opportunities for volunteers to tutor. 
+Consequently they require a website to facilitate and advertsie their scheme.
 
-A blue button should appear to click: _Make Public_,
+###Scope
+####Scheme scope:
+The scope of the scheme will be to provide tutoring in any of the core STEM subjects to secondary school and college students within the UK, and to use voluntary tutors. It is anticipated that the bulk of said tutors will be undergraduates studying a STEM degree who are seeking voluntary tutor roles, for the sake of their CV development through gaining skills and experience. Students with a possible interest in teaching will also have a strong desire to seek experience. The other group of volunteers are anticipated to be retired teachers, or any other individuals who have sufficient expertise in a STEM subject, with an interest in helping students who would normally not have access to tutors, gain assistance in their learning.
 
-Another blue button should appear to click: _Open Browser_.
+ The tutoring is to be hosted via a video call application that provides the ability to screen share. Volunteer tutors will apply to become a tutor and indicate on a weekly basis on what days and at what times they want to tuor. They will also need to indicate the STEM subjects they are qualified to tutor in. Tutoring sessions will be a maximum of one hour, and will be allocated on a first come first serve basis, up to one week in advance. Students wishing to be tutored will book a session at least 48hrs in advance. Additionally they will need to indicate with a short description the topic they would like their potential tutor to cover in their session.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+####Site key functions and content
+ In order to achieve the needs of the site owner and the users, as well as satisfy the websites purpose, it will minimally require the following functions and content:
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+-Provide advertisement of and information about the tutoring scheme
+-A way for tutors to register their details, including their STEM subject expertise, as well what dates and times during a week they will be available to tutor
+- A way for students to book a tutoring session on a given date at a certain time, as well as enable them to provide a short description of the topic they would like to cover.
+-A way to assist students with choosing which dates and times to request a session, and to have an idea of tutor availability.
+- Content that answers any common questions tutors and students may have.
+####Proposed features
+To address the  minimal required site content and functionality, the following features were chosen to be implemented:
+- Home/landing page to act as a clear concise summary introduction of the tutoring scheme and provide its key information. Also it will act as a first point of contact for tutees and tutors, to direct them to the necessary pages to allow them  to apply to be a tutor and or arrange tutoring sessions. It will finally provide links to other pages explaining the full details of the scheme in more depth, and answering common questions.
+-A form page for potential tutors to apply, where they can provide thier personal details, including their STEM subject expertise, as well what dates and times during a week they want to tutor.
+-A form page for tutees to book a tutoring session on a given date at a certain time, as well as enable them to provide a short description of the topic they would like to cover.
+-To assist students in choosing which dates and times to book a session and enable them to have an idea of tutor availability, a  timetable page will be used that indicates at what times, on which dates, in which subjects how many tutors are available as of the last update. This will be done for a rolling week.
+-A further information page detailing the scheme in more depth, providing any important information not covered on the landing page.
+-Finally a FAQ's page will be implemented to answer common questions of tutors and students.
