@@ -43,3 +43,8 @@ To address the  minimal required site content and functionality, the following f
 -To assist students in choosing which dates and times to book a session and enable them to have an idea of tutor availability, a  timetable page will be used that indicates at what times, on which dates, in which subjects how many tutors are available as of the last update. This will be done for a rolling week.
 -A further information page detailing the scheme in more depth, providing any important information not covered on the landing page.
 -Finally a FAQ's page will be implemented to answer common questions of tutors and students.
+
+####Proposed future features
+-Allow automation of session booking, and real-time updates to tutor availability, to be done using JavaScript. At the moment changes to the site need to be done manually, which is inefficient and error-prone; Session booking requires the use of emails to be sent manually. Automation will increase functionality of the site, and also make it more scalable.
+-Allow tutees to provide feedback/reviews directly to the site.
+-Allow allocation priority to be asigned that gives preference to those that have received fewer sessions, by tracking how many sessions in a given time period a student has had.
