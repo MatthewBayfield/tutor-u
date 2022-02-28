@@ -449,7 +449,6 @@ table * {
 caption {
     color: #000000;
     margin-top: 5px;
-    text-align: left;
     width: fit-content;
 }
 
@@ -468,6 +467,8 @@ caption {
     overflow-x: scroll;
     padding: 6px;
     margin: 5px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 /*Makes the times column sticky and also display infront of other columns as it sticks and slides over them when scrolling in the x-direction.*/
@@ -524,8 +525,10 @@ th[id] {
 
 #table_links a {
     color: inherit;
-    margin: 5px;
+    margin: 8px;
     font-size: 0.8rem;
+    /*stops links being split over two lines*/
+    display: inline-block;
 }
 
 /*FAQ styling only*/
@@ -694,7 +697,9 @@ details>a {
     }
 
     #tutor_booking_main>p,
-    #timetable>p {
+    #timetable>p,
+    .table_bottom_links span,
+    #table_links a {
         font-size: 1rem;
     }
 
@@ -706,6 +711,25 @@ details>a {
 
     #faq_main>p {
         font-size: 0.9rem;
+    }
+
+    /*Timetable page*/
+
+    caption {
+        text-align: center;
+    }
+
+    /*center tables and increase size*/
+    .mon_to_fri_table,
+    .saturday {
+        font-size: 0.95rem;
+        margin: 0 auto;
+    }
+
+    .table_bottom_links,
+    #table_links {
+        display: block;
+        text-align: center;
     }
 }
 
@@ -736,6 +760,12 @@ details>a {
         font-size: 0.95rem;
     }
 
+    /*timetable page*/
+    .mon_to_fri_table,
+    .saturday {
+        font-size: 1.2rem;
+    }
+
 }
 
 /*Screens of width at least 600px*/
@@ -755,7 +785,9 @@ details>a {
     /*Form pages and timetable*/
 
     #tutor_booking_main>p,
-    #timetable>p {
+    #timetable>p,
+    .table_bottom_links span,
+    #table_links a {
         font-size: 1.2rem;
     }
 
@@ -773,6 +805,12 @@ details>a {
 
     #faq_main>p {
         font-size: 1rem;
+    }
+
+    /*timetable page*/
+    .mon_to_fri_table,
+    .saturday {
+        font-size: 1.4rem;
     }
 
 }
@@ -816,13 +854,21 @@ details>a {
     }
 
     #tutor_booking_main>p,
-    #timetable>p {
+    #timetable>p,
+    .table_bottom_links span,
+    #table_links a {
         font-size: 1.4rem;
     }
 
     /*FAQ page*/
     #faq_main>p {
         font-size: 1.5rem;
+    }
+
+    /*timetable page*/
+    .mon_to_fri_table,
+    .saturday {
+        font-size: 1.8rem;
     }
 
 }
@@ -850,7 +896,9 @@ details>a {
     }
 
     #tutor_booking_main>p,
-    #timetable>p {
+    #timetable>p,
+    .table_bottom_links span,
+    #table_links a {
         font-size: 1.5rem;
     }
 
@@ -862,6 +910,12 @@ details>a {
 
     #faq_main>p {
         font-size: 1.6rem;
+    }
+
+    /*timetable page*/
+    .mon_to_fri_table,
+    .saturday {
+        font-size: 1.9rem;
     }
 }
 
@@ -898,7 +952,9 @@ details>a {
     /*Form pages and timetable*/
 
     #tutor_booking_main>p,
-    #timetable>p {
+    #timetable>p,
+    .table_bottom_links span,
+    #table_links a {
         font-size: 1.7rem;
     }
 
@@ -915,6 +971,12 @@ details>a {
     }
 
     #faq_main>p {
+        font-size: 2rem;
+    }
+
+    /*timetable page*/
+    .mon_to_fri_table,
+    .saturday {
         font-size: 2rem;
     }
 
@@ -955,7 +1017,9 @@ details>a {
     }
 
     #timetable>p,
-    #tutor_booking_main>h2 {
+    #tutor_booking_main>p,
+    .table_bottom_links span,
+    #table_links a {
         font-size: 2rem;
     }
 
@@ -967,6 +1031,12 @@ details>a {
 
     #faq_main>p {
         font-size: 2.3rem;
+    }
+
+    /*timetable page*/
+    .mon_to_fri_table,
+    .saturday {
+        font-size: 2.9rem;
     }
 
 }
