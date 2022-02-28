@@ -500,6 +500,7 @@ th[id] {
     margin: 5px auto;
     font-family: Barlow Semi Condensed, sans-serif;
     font-weight: 300;
+    font-size: 2rem;
 }
 
 #timetable>p {
@@ -684,14 +685,16 @@ details>a {
 
 @media screen and (min-width: 400px) {
 
-    /*form pages*/
+    /*form pages and timetable page*/
 
     #tutor_booking_main>h2,
-    #tutor_application_main>h2 {
+    #tutor_application_main>h2,
+    #timetable>h2 {
         font-size: 2.5rem;
     }
 
-    #tutor_booking_main>p {
+    #tutor_booking_main>p,
+    #timetable>p {
         font-size: 1rem;
     }
 
@@ -715,9 +718,11 @@ details>a {
         text-align: center;
     }
 
-    /*Form pages*/
+    /*Form pages and timetable*/
+
     #tutor_booking_main>h2,
-    #tutor_application_main>h2 {
+    #tutor_application_main>h2,
+    #timetable>h2 {
         font-size: 3rem;
     }
 
@@ -747,14 +752,16 @@ details>a {
         font-size: 0.85rem;
     }
 
-    /*Form pages*/
+    /*Form pages and timetable*/
 
-    #tutor_booking_main>p {
+    #tutor_booking_main>p,
+    #timetable>p {
         font-size: 1.2rem;
     }
 
     #tutor_booking_main>h2,
-    #tutor_application_main>h2 {
+    #tutor_application_main>h2,
+    #timetable>h2 {
         font-size: 3.5rem;
     }
 
@@ -800,13 +807,16 @@ details>a {
     }
 
 
-    /*Form pages*/
+    /*Form pages and timetable*/
+
     #tutor_booking_main>h2,
-    #tutor_application_main>h2 {
+    #tutor_application_main>h2,
+    #timetable>h2 {
         font-size: 4rem;
     }
 
-    #tutor_booking_main>p {
+    #tutor_booking_main>p,
+    #timetable>p {
         font-size: 1.4rem;
     }
 
@@ -832,14 +842,15 @@ details>a {
         font-size: 1.1rem;
     }
 
-    /*Form pages*/
+    /*Form pages and timetable*/
 
     input[type=submit],
     input[type=reset] {
         font-size: 1.8rem;
     }
 
-    #tutor_booking_main>p {
+    #tutor_booking_main>p,
+    #timetable>p {
         font-size: 1.5rem;
     }
 
@@ -884,13 +895,16 @@ details>a {
         max-height: 640px;
     }
 
-    /*Form pages*/
-    #tutor_booking_main>p {
+    /*Form pages and timetable*/
+
+    #tutor_booking_main>p,
+    #timetable>p {
         font-size: 1.7rem;
     }
 
     #tutor_booking_main>h2,
-    #tutor_application_main>h2 {
+    #tutor_application_main>h2,
+    #timetable>h2 {
         font-size: 4.5rem;
     }
 
@@ -927,7 +941,7 @@ details>a {
         font-size: 1.7rem;
     }
 
-    /*form pages*/
+    /*form pages and timetable*/
 
     input[type=submit],
     input[type=reset] {
@@ -935,8 +949,14 @@ details>a {
     }
 
     #tutor_booking_main>h2,
-    #tutor_application_main>h2 {
+    #tutor_application_main>h2,
+    #timetable>h2 {
         font-size: 5rem;
+    }
+
+    #timetable>p,
+    #tutor_booking_main>h2 {
+        font-size: 2rem;
     }
 
     /*FAQ page*/
