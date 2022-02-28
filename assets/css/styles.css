@@ -377,7 +377,7 @@ label {
 }
 
 /*centering and sizing heading*/
-#tutor_application_main>h2,
+#tutor_application_main>h3,
 #tutor_booking_main>h3 {
     width: fit-content;
     margin: 10px auto 20px;
