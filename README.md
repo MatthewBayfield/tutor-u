@@ -47,4 +47,4 @@ To address the  minimal required site content and functionality, the following f
 #### Proposed future features
 - Allow automation of session booking, and real-time updates to tutor availability, to be done using JavaScript. At the moment changes to the site need to be done manually, which is inefficient and error-prone; Session booking requires the use of emails to be sent manually. Automation will increase functionality of the site, and also make it more scalable.
 - Allow tutees to provide feedback/reviews directly to the site.
-- Allow allocation priority to be asigned that gives preference to those that have received fewer sessions, by tracking how many sessions in a given time period a student has had.
+- Allow allocation priority to be assigned that gives preference to those that have received fewer sessions, by tracking how many sessions in a given time period a student has had.
