@@ -408,17 +408,13 @@ label {
     border-radius: 20px;
     padding: 10px;
     width: fit-content;
-    position: absolute;
-    top: 40%;
-    /*centers the box in a responsive fashion.*/
-    left: calc(50% - 128px);
+    margin: 10px
 }
 
 #home_button {
     background-color: #00bd9d;
     text-transform: uppercase;
     width: 100px;
-    height: 20px;
     margin-top: 20px;
     border-radius: 15px;
 }
@@ -432,8 +428,9 @@ label {
 }
 
 #home_button>a {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
+    text-decoration-color: white;
 
 }
 
@@ -694,12 +691,14 @@ details>a {
 
 @media screen and (min-width: 400px) {
 
-    /*form pages,timetable and more info page*/
+    /*form pages,timetable, response form and more info page*/
 
     #tutor_booking_main>h3,
     #tutor_application_main>h3,
     #timetable>h2,
-    #more_information_main>h2 {
+    #more_information_main>h2,
+    #response>h2,
+    #response {
         font-size: 2.5rem;
     }
 
@@ -707,7 +706,8 @@ details>a {
     #timetable>p,
     .table_bottom_links span,
     #table_links a,
-    #more_information_main p {
+    #more_information_main p,
+    #home_button {
         font-size: 1rem;
     }
 
@@ -755,11 +755,13 @@ details>a {
         text-align: center;
     }
 
-    /*Form pages,timetable and more info page*/
+    /*Form pages,timetable, response form and more info page*/
     #tutor_booking_main>h3,
     #tutor_application_main>h3,
     #timetable>h2,
-    #more_information_main>h2 {
+    #more_information_main>h2,
+    #response>h2,
+    #response {
         font-size: 3rem;
     }
 
@@ -795,20 +797,23 @@ details>a {
         font-size: 0.85rem;
     }
 
-    /*Form pages, timetable and more info page*/
+    /*Form pages, timetable, response form and more info page*/
 
     #tutor_booking_main>p,
     #timetable>p,
     .table_bottom_links span,
     #table_links a,
-    #more_information_main p {
+    #more_information_main p,
+    #home_button {
         font-size: 1.2rem;
     }
 
     #tutor_booking_main>h3,
     #tutor_application_main>h3,
     #timetable>h2,
-    #more_information_main>h2 {
+    #more_information_main>h2,
+    #response>h2,
+    #response {
         font-size: 3.5rem;
     }
 
@@ -865,12 +870,14 @@ details>a {
     }
 
 
-    /*Form pages, timetable and more info page*/
+    /*Form pages, timetable, response form and more info page*/
 
     #tutor_booking_main>h3,
     #tutor_application_main>h3,
     #timetable>h2,
-    #more_information_main>h2 {
+    #more_information_main>h2,
+    #response>h2,
+    #response {
         font-size: 4rem;
     }
 
@@ -878,7 +885,8 @@ details>a {
     #timetable>p,
     .table_bottom_links span,
     #table_links a,
-    #more_information_main p {
+    #more_information_main p,
+    #home_button {
         font-size: 1.4rem;
     }
 
@@ -915,7 +923,7 @@ details>a {
         font-size: 1.1rem;
     }
 
-    /*Form pages and timetable*/
+    /*Form pages, timetable, form_response and more info page*/
 
     input[type=submit],
     input[type=reset] {
@@ -926,7 +934,8 @@ details>a {
     #timetable>p,
     .table_bottom_links span,
     #table_links a,
-    #more_information_main p {
+    #more_information_main p,
+    #home_button {
         font-size: 1.5rem;
     }
 
@@ -982,20 +991,23 @@ details>a {
         max-height: 640px;
     }
 
-    /*Form pages, timetable and more info page*/
+    /*Form pages, timetable, response form and more info page*/
 
     #tutor_booking_main>p,
     #timetable>p,
     .table_bottom_links span,
     #table_links a,
-    #more_information_main p {
+    #more_information_main p,
+    #home_button {
         font-size: 1.7rem;
     }
 
     #tutor_booking_main>h3,
     #tutor_application_main>h3,
     #timetable>h2,
-    #more_information_main>h2 {
+    #more_information_main>h2,
+    #response>h2,
+    #response {
         font-size: 4.5rem;
     }
 
@@ -1043,7 +1055,7 @@ details>a {
         font-size: 1.7rem;
     }
 
-    /*form pages, timetable and more info page*/
+    /*form pages, timetable, response form and more info page*/
 
     input[type=submit],
     input[type=reset] {
@@ -1053,7 +1065,9 @@ details>a {
     #tutor_booking_main>h3,
     #tutor_application_main>h3,
     #timetable>h2,
-    #more_information_main>h2 {
+    #more_information_main>h2,
+    #response>h2,
+    #response {
         font-size: 5rem;
     }
 
@@ -1061,7 +1075,8 @@ details>a {
     #tutor_booking_main>p,
     .table_bottom_links span,
     #table_links a,
-    #more_information_main p {
+    #more_information_main p,
+    #home_button {
         font-size: 2rem;
     }
 
