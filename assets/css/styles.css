@@ -504,6 +504,11 @@ th[id] {
     font-size: 2rem;
 }
 
+#timetable h3 {
+    border: none;
+    margin: 0;
+}
+
 #timetable>p {
     font-size: 0.8rem;
     padding: 10px;
