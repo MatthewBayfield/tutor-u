@@ -286,6 +286,8 @@ div address {
 
 .footer_external_links i {
     color: #00bd9d;
+    font-size: 1.5rem;
+    margin: 8px 0;
 }
 
 address+.footer_external_links {
@@ -797,6 +799,10 @@ details>a {
         font-size: 0.85rem;
     }
 
+    .footer_external_links i {
+        font-size: 1.8rem;
+    }
+
     /*Form pages, timetable, response form and more info page*/
 
     #tutor_booking_main>p,
@@ -857,6 +863,10 @@ details>a {
 
     main section {
         font-size: 1rem;
+    }
+
+    .footer_external_links i {
+        font-size: 2rem;
     }
 
     /*Index.html hero-image*/
@@ -923,6 +933,10 @@ details>a {
         font-size: 1.1rem;
     }
 
+    .footer_external_links i {
+        font-size: 2.5rem;
+    }
+
     /*Form pages, timetable, form_response and more info page*/
 
     input[type=submit],
@@ -979,6 +993,10 @@ details>a {
 
     main {
         grid-template-rows: 7fr 4fr;
+    }
+
+    .footer_external_links i {
+        font-size: 3rem;
     }
 
     /*Index.html hero-image*/
@@ -1053,6 +1071,10 @@ details>a {
     footer div,
     main section {
         font-size: 1.7rem;
+    }
+
+    .footer_external_links i {
+        font-size: 4rem;
     }
 
     /*form pages, timetable, response form and more info page*/
