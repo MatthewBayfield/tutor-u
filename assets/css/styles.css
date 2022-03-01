@@ -887,7 +887,8 @@ details>a {
 
     /*Form pages, timetable, response form and more info page*/
 
-    input[type="checkbox"] {
+    input[type="checkbox"],
+    input[type="radio"] {
         width: 1.3rem;
         height: 1.3rem;
     }
@@ -1095,9 +1096,10 @@ details>a {
 
     /*form pages, timetable, response form and more info page*/
 
-    input[type="checkbox"] {
-        width: 1.3rem;
-        height: 1.3rem;
+    input[type="checkbox"],
+    input[type="radio"] {
+        width: 1.5rem;
+        height: 1.5rem;
     }
 
     input[type="text"],
