@@ -347,6 +347,17 @@ input[type=reset] {
     border: 3px solid #00bd9d;
 }
 
+/*Provides a visual indicator, via a red superscript asterisk, of required text-based input fields.*/
+label[for="first_name"]::after,
+label[for="last_name"]::after,
+label[for="email"]::after,
+label[for="topic_or_problem_description"]::after,
+label[for="subject_expertise"]::after {
+    content: " *";
+    vertical-align: super;
+    color: red;
+}
+
 /*Makes the extra checkbox fill a checkbox sized space without being seen, for the purpose of vertical alignment.*/
 .space_occupier {
     visibility: hidden;
