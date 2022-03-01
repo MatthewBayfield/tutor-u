@@ -844,8 +844,8 @@ details>a {
         font-size: 1.4rem;
     }
 
-     /*more info page*/
-     #more_information_main h3 {
+    /*more info page*/
+    #more_information_main h3 {
         font-size: 1.4rem;
     }
 
@@ -892,6 +892,12 @@ details>a {
         height: 1.3rem;
     }
 
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 1.2rem;
+    }
+
     #tutor_booking_main>h3,
     #tutor_application_main>h3,
     #timetable>h2,
@@ -921,8 +927,8 @@ details>a {
         font-size: 1.8rem;
     }
 
-     /*more info page*/
-     #more_information_main h3 {
+    /*more info page*/
+    #more_information_main h3 {
         font-size: 1.6rem;
     }
 
@@ -979,8 +985,8 @@ details>a {
         font-size: 1.9rem;
     }
 
-     /*more info page*/
-     #more_information_main h3 {
+    /*more info page*/
+    #more_information_main h3 {
         font-size: 1.7rem;
     }
 }
@@ -1055,8 +1061,8 @@ details>a {
         font-size: 2rem;
     }
 
-     /*more info page*/
-     #more_information_main h3 {
+    /*more info page*/
+    #more_information_main h3 {
         font-size: 1.9rem;
     }
 
@@ -1092,6 +1098,12 @@ details>a {
     input[type="checkbox"] {
         width: 1.3rem;
         height: 1.3rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 1.7rem;
     }
 
     input[type=submit],
@@ -1133,8 +1145,8 @@ details>a {
         font-size: 2.9rem;
     }
 
-     /*more info page*/
-     #more_information_main h3 {
+    /*more info page*/
+    #more_information_main h3 {
         font-size: 2.2rem;
     }
 
