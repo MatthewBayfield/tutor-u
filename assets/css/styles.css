@@ -347,6 +347,11 @@ input[type=reset] {
     border: 3px solid #00bd9d;
 }
 
+/*Makes the extra checkbox fill a checkbox sized space without being seen, for the purpose of vertical alignment.*/
+.space_occupier {
+    visibility: hidden;
+}
+
 /*To override inheritance of a grid layout through the main selector.*/
 #tutor_application_main,
 #tutor_booking_main {
