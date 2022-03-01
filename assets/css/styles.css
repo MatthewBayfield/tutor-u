@@ -887,6 +887,11 @@ details>a {
 
     /*Form pages, timetable, response form and more info page*/
 
+    input[type="checkbox"] {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+
     #tutor_booking_main>h3,
     #tutor_application_main>h3,
     #timetable>h2,
@@ -1083,6 +1088,11 @@ details>a {
     }
 
     /*form pages, timetable, response form and more info page*/
+
+    input[type="checkbox"] {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
 
     input[type=submit],
     input[type=reset] {
