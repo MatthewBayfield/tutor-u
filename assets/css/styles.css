@@ -458,8 +458,9 @@ table * {
 
 caption {
     color: #000000;
-    margin-top: 5px;
+    margin: 3px 0px;
     width: fit-content;
+    background-color: white;
 }
 
 .mon_to_fri_table,
@@ -487,6 +488,10 @@ caption {
     left: 0px;
     z-index: 1;
     background-color: #01748d;
+}
+
+.empty {
+    visibility: hidden;
 }
 
 td[headers],
