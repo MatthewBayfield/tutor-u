@@ -1,5 +1,5 @@
 /*imports google font stylesheet*/
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400&family=News+Cycle&family=Yantramanav:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500&family=News+Cycle&display=swap');
 
 /*Styling, to different degrees, common to all pages*/
 
@@ -84,8 +84,8 @@ header {
 nav {
     background-color: #01748d;
     border: 2px solid #00bd9d;
-    font-size: 0.7rem;
-    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 500;
     font-family: "Barlow Semi Condensed", sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +101,7 @@ nav span {
 nav a {
     text-decoration: none;
     color: #fffbfa;
+    padding: 0px 8px;
 }
 
 /*Provides user feedback by indicating what page they are currently on*/
@@ -709,6 +710,12 @@ details>a {
 
 @media screen and (min-width: 400px) {
 
+    /*All pages*/
+
+    nav {
+        font-size: 1.2rem;
+    }
+
     /*form pages,timetable, response form and more info page*/
 
     #tutor_booking_main>h3,
@@ -806,12 +813,18 @@ details>a {
 /*All pages*/
 
 @media screen and (min-width: 600px) {
+
+    /*All pages*/
+
+    nav {
+        font-size: 1.3rem;
+    }
+
     main section {
         font-size: 0.9rem;
     }
 
-    footer div,
-    nav {
+    footer div {
         font-size: 0.85rem;
     }
 
@@ -868,11 +881,14 @@ details>a {
 
     /*Main, nav and footer all pages*/
 
+    nav {
+        font-size: 1.4rem;
+    }
+
     main {
         grid-template-rows: 6fr 4fr;
     }
 
-    nav,
     footer div {
         font-size: 1rem;
     }
@@ -952,7 +968,10 @@ details>a {
 
     /*Main, nav and footer all pages*/
 
-    nav,
+    nav {
+        font-size: 1.6rem;
+    }
+
     footer div {
         font-size: 1.2rem;
     }
@@ -1009,7 +1028,10 @@ details>a {
 
     /*Main, nav and footer all pages*/
 
-    nav,
+    nav {
+        font-size: 1.8rem;
+    }
+
     footer div,
     main section {
         font-size: 1.4rem;
@@ -1094,8 +1116,12 @@ details>a {
 
 @media screen and (min-width: 1400px) {
 
-    /*all pages*/
-    nav,
+    /*All pages*/
+
+    nav {
+        font-size: 2.1rem;
+    }
+
     footer div,
     main section {
         font-size: 1.7rem;
