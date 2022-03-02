@@ -123,7 +123,7 @@ main section {
     padding-left: 10px;
 }
 
-main section h3 {
+main section h2 {
     text-align: center;
     border: 1px solid #00bd9d;
     margin-top: 3px;
@@ -238,7 +238,7 @@ footer div {
     color: #fffbfa;
 }
 
-footer h4 {
+footer h3 {
     text-transform: uppercase;
     text-align: center;
 }
