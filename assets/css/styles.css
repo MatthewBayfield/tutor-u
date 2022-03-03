@@ -430,8 +430,9 @@ label {
     background-color: #00bd9d;
     text-transform: uppercase;
     width: 100px;
-    margin-top: 20px;
+    margin: 20px auto 0px;
     border-radius: 15px;
+    border: 3px solid #01748d;
 }
 
 #response>h2 {
@@ -446,7 +447,6 @@ label {
     text-decoration: underline;
     color: inherit;
     text-decoration-color: white;
-
 }
 
 /*Timetable styling only*/
