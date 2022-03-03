@@ -391,7 +391,7 @@ label {
 }
 
 /*centering and sizing heading*/
-#tutor_application_main>h3,
+#tutor_application_main h2,
 #tutor_booking_main h2 {
     width: fit-content;
     margin: 10px auto 20px;
@@ -720,7 +720,7 @@ details>a {
     /*form pages,timetable, response form and more info page*/
 
     #tutor_booking_main h2,
-    #tutor_application_main>h3,
+    #tutor_application_main h2,
     #timetable>h2,
     #more_information_main>h2,
     #response>h2,
@@ -783,7 +783,7 @@ details>a {
 
     /*Form pages,timetable, response form and more info page*/
     #tutor_booking_main h2,
-    #tutor_application_main>h3,
+    #tutor_application_main h2,
     #timetable>h2,
     #more_information_main>h2,
     #response>h2,
@@ -845,7 +845,7 @@ details>a {
     }
 
     #tutor_booking_main h2,
-    #tutor_application_main>h3,
+    #tutor_application_main h2,
     #timetable>h2,
     #more_information_main>h2,
     #response>h2,
@@ -928,7 +928,7 @@ details>a {
     }
 
     #tutor_booking_main h2,
-    #tutor_application_main>h3,
+    #tutor_application_main h2,
     #timetable>h2,
     #more_information_main>h2,
     #response>h2,
@@ -1072,7 +1072,7 @@ details>a {
     }
 
     #tutor_booking_main h2,
-    #tutor_application_main>h3,
+    #tutor_application_main h2,
     #timetable>h2,
     #more_information_main>h2,
     #response>h2,
@@ -1152,7 +1152,7 @@ details>a {
     }
 
     #tutor_booking_main h2,
-    #tutor_application_main>h3,
+    #tutor_application_main h2,
     #timetable>h2,
     #more_information_main>h2,
     #response>h2,
