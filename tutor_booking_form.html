@@ -18,7 +18,7 @@
         <!--Use of a Font Awesome icon in logo, taken from https://fontawesome.com/icons/magnet?s=solid -->
         <div id="logo_container">
             <!--Added noscript element in case font awesome icon script is unavailable because JavaScript has been disabled.-->
-            <h1>Tutor <i class="fa-solid fa-magnet"></i><noscript>U</noscript></h1>
+            <h1 aria-label="tutor you">Tutor <i class="fa-solid fa-magnet"></i><noscript>U</noscript></h1>
         </div>
     </header>
     <!--Main navigation links-->
@@ -49,16 +49,16 @@
             <form id="tutor_booking_form" action="form_response.html#response" method="get"
                 name="tutor_booking_form">
                 <fieldset name="personal_details">
-                    <legend>Personal Details:</legend>
+                    <legend>Personal Details (required):</legend>
                     <label for="first_name">First Name:</label>
-                    <input id="first_name" type="text" name="first_name" required><br>
+                    <input id="first_name" type="text" name="first_name" required aria-required="true" autocomplete="on"><br>
                     <label for="last_name">Last Name:</label>
-                    <input id="last_name" type="text" name="last_name" required><br>
+                    <input id="last_name" type="text" name="last_name" required aria-required="true" autocomplete="on"><br>
                     <label for="email">Email Address:</label>
-                    <input id="email" type="email" name="email" required>
+                    <input id="email" type="email" name="email" required aria-required="true" autocomplete="on">
                 </fieldset>
                 <fieldset name="subjects_and_topic_descriptions">
-                    <legend>Choose a subject to be tutored in:</legend>
+                    <legend>Choose a subject to be tutored in (required):</legend>
                     <label for="maths">Maths</label>
                     <input type="radio" id="maths" name="session_subject" value="maths" required checked>
                     <label for="physics">Physics</label>
@@ -73,8 +73,8 @@
                     <input type="radio" id="computer_science" name="session_subject" value="computer_science"><br>
                     <label for="topic_or_problem_description">Briefly describe the problem and or topic you need help with:</label><br>
                     <textarea name="topic_or_problem_description" id="topic_or_problem_description"
-                        placeholder="e.g. I need help with integral calculus, in particular the integration by parts technique."
-                        cols="29" rows="6" required></textarea>
+                        placeholder="for example: I need help with integral calculus, in particular the integration by parts technique."
+                        cols="29" rows="6" required aria-required="true"></textarea>
                 </fieldset>
                 <fieldset name="tutor_days_and_times">
                     <legend>Days and times selection:</legend>
@@ -237,6 +237,7 @@
     <!--Footer-->
     <footer>
         <div>
+            <h3>Site map:</h3>
             <ul>
                 <li>
                     <a href="#page_top_booking_form"> Back to top <i class="fas fa-arrow-circle-up"></i></a>
@@ -271,15 +272,19 @@
             </address>
             <div class="footer_external_links">
                 <h3>Useful Links:</h3>
-                <a href="https://nationalcareers.service.gov.uk/job-categories/science-and-research" rel="noopener"
-                    target="_blank">STEM Careers</a>
+                <a aria-label="STEM careers (opens national careers service government site in a new tab)"
+                href="https://nationalcareers.service.gov.uk/job-categories/science-and-research" rel="noopener"
+                target="_blank">STEM Careers</a>
             </div>
         </div>
         <div class="footer_external_links">
             <h3>Follow Us:</h3>
-            <a href="https://en-gb.facebook.com/" rel="noopener" target="_blank"><i class="fab fa-facebook"></i></a><br>
-            <a href="https://telegram.org/" rel="noopener" target="_blank"><i class="fab fa-telegram"></i></a><br>
-            <a href="https://www.youtube.com/" rel="noopener" target="_blank"><i class="fab fa-youtube"></i></a>
+            <p><a aria-label="facebook icon (opens facebook homepage in a new tab)" href="https://en-gb.facebook.com/"
+                rel="noopener" target="_blank"><i aria-hidden="false" class="fab fa-facebook"></i></a></p>
+        <p><a aria-label="telegram icon (opens telegram homepage in a new tab)" href="https://telegram.org/"
+                rel="noopener" target="_blank"><i aria-hidden="false" class="fab fa-telegram"></i></a></p>
+        <p><a aria-label="youtube icon (opens youtube homepage in a new tab)" href="https://www.youtube.com/"
+                rel="noopener" target="_blank"><i aria-hidden="false" class="fab fa-youtube"></i></a></p>
         </div>
     </footer>
     <!--script element for Font Awesome icon -->
