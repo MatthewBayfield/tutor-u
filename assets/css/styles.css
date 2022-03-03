@@ -449,6 +449,10 @@ label {
     text-decoration-color: white;
 }
 
+#page_top_form_response footer div {
+    font-size: 0.75rem;
+}
+
 /*Timetable styling only*/
 
 /*Allows the sticky times column to slide over and be seen over the other table columns if and when the table becomes x-scrollable.*/
