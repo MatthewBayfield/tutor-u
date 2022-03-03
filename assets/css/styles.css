@@ -55,7 +55,7 @@ header {
 }
 
 #logo_container>h1 {
-    font-family: "Barlow Semi Condensed", sans serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 400;
     font-size: 3rem;
     line-height: 0.8;
@@ -395,7 +395,7 @@ label {
 #tutor_booking_main h2 {
     width: fit-content;
     margin: 10px auto 20px;
-    font-family: Barlow Semi Condensed, sans-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 300;
     font-size: 2rem;
     border: none;
@@ -437,7 +437,7 @@ label {
 
 #response>h2 {
     font-size: large;
-    font-family: "Barlow Semi Condensed", sans serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     text-transform: uppercase;
     font-weight: 300;
 
@@ -520,7 +520,7 @@ th[id] {
 #timetable>h2 {
     width: fit-content;
     margin: 5px auto;
-    font-family: Barlow Semi Condensed, sans-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 300;
     font-size: 2rem;
 }
@@ -581,7 +581,7 @@ details>a {
 #faq_main>h2 {
     width: fit-content;
     margin: 5px auto;
-    font-family: Barlow Semi Condensed, sans-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
 }
@@ -602,7 +602,7 @@ details>a {
 }
 
 #more_information_main>h2 {
-    font-family: Barlow Semi Condensed, sans-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 300;
     width: fit-content;
     margin: 10px auto;
