@@ -5,7 +5,7 @@ The Tutor U site in part provides advertisement and information for a free, volu
 Additionally the site provides the means by which potential voluntary tutors apply to become a tutor and they can provide the days and times during a week they wish to tutor, and in what subjects. The site also provides the ability for students to book a session with an avaialble tutor and specify the topic and or problem they would like to discuss in advance.
 
 ## Design Process
-### Stratergy
+### Strategy
 
 #### Target Audience:
 The primary audiences are firstly secondary school and sixth from college students seeking tutoring in STEM subjects; and secondly individuals looking to become voluntary tutors in STEM subjects.
@@ -35,7 +35,7 @@ The scope of the scheme will be to provide tutoring in any of the core STEM subj
 - A way for students to book a tutoring session on a given date at a certain time, as well as enable them to provide a short description of the topic they would like to cover.
 - A way to assist students with choosing which dates and times to request a session, and to have an idea of tutor availability.
 - Content that answers any common questions tutors and students may have.
-####Proposed features
+#### Proposed features
 To address the  minimal required site content and functionality, the following features were chosen to be implemented:
 - Home/landing page to act as a clear concise summary introduction of the tutoring scheme and provide its key information. Also it will act as a first point of contact for tutees and tutors, to direct them to the necessary pages to allow them  to apply to be a tutor and or arrange tutoring sessions. It will finally provide links to other pages explaining the full details of the scheme in more depth, and answering common questions.
 - A form page for potential tutors to apply, where they can provide thier personal details, including their STEM subject expertise, as well what dates and times during a week they want to tutor.
