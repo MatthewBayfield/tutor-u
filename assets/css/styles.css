@@ -1,7 +1,9 @@
 /*imports google font stylesheet*/
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500&family=News+Cycle&display=swap');
 
-/*Styling, to different degrees, common to all pages*/
+/*CSS section: For mobile display sizes in portrait orientation*/
+
+/*CSS subsection: Styling, to different degrees, common to all pages*/
 
 /*Removes browser padding/margin/border box sizing*/
 * {
@@ -9,8 +11,6 @@
     margin: 0;
     border: none;
 }
-
-/*For mobile display sizes in portrait orientation*/
 
 /*auto overflow for the purpose of responsive design*/
 html {
@@ -30,6 +30,7 @@ header {
     height: 25vh;
     width: 100%;
     background: url("../images/girl_being_tutored_online.jpg") center / cover no-repeat;
+    /*relative position so that it acts as the containing block for the logo-container*/
     position: relative;
     margin-bottom: 1px;
 }
@@ -54,6 +55,7 @@ header {
 
 }
 
+/*Logo styling*/
 #logo_container>h1 {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 400;
@@ -62,7 +64,7 @@ header {
     color: #fffbfa;
 }
 
-/*On page loading, expands and contracts the logo and its container, and outlines with a border temporarily.*/
+/*On page loading, expands and contracts the logo and its container, and outlines with a different border color temporarily.*/
 @keyframes logo_expand {
     0% {
         transform: scale(1, 1);
@@ -80,7 +82,8 @@ header {
 
 /*Nav element styling*/
 
-/*Creates a flexbox for the nav links*/
+/*Creates a flexbox for the nav links and styles*/
+
 nav {
     background-color: #01748d;
     border: 2px solid #00bd9d;
@@ -115,7 +118,7 @@ nav a {
     text-decoration-thickness: 3px;
 }
 
-/* main section stylng*/
+/*main section stylng*/
 
 main section {
     font-size: 0.8rem;
@@ -174,6 +177,8 @@ main {
     min-height: 50vh;
 }
 
+/*Setting grid cell positions for each corresponding class*/
+
 .first_column {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -203,7 +208,7 @@ main {
     color: #00bd9d;
 }
 
-/*Scales and positions the main picture/image element */
+/*Scales and positions the main picture/image element*/
 
 picture {
     width: 100%;
@@ -291,7 +296,8 @@ address+.footer_external_links {
     text-align: left;
 }
 
-/*Styling only for the application and booking form pages*/
+
+/*CSS subsection: Styling only for the application and booking form pages*/
 
 fieldset {
     margin: 5px;
@@ -316,14 +322,18 @@ fieldset li {
     margin: 0px;
 }
 
+/*Allows the list items to be adjacent*/
 fieldset>ul>li {
     display: inline-block;
 }
 
+/*Setting the padding for some of the form fieldsets*/
 [name="personal_details"] *,
 [name^="subjects"] * {
     padding: 3px;
 }
+
+/*Styling the personal details form inputs*/
 
 input[type=text] {
     width: 150px;
@@ -333,6 +343,7 @@ input[type=email] {
     width: 200px;
 }
 
+/*Styling the submit and reset  form buttons*/
 input[type=submit],
 input[type=reset] {
     padding: 4px;
@@ -353,7 +364,8 @@ label[for="subject_expertise"]::after {
     color: red;
 }
 
-/*Makes the extra checkbox fill a checkbox sized space without being seen, for the purpose of vertical alignment.*/
+/*Makes the extra empty checkbox occupy a checkbox sized space without being seen, for the purpose of vertical alignment of the saturday list item
+with its adajcent list items.*/
 .space_occupier {
     visibility: hidden;
 }
@@ -362,11 +374,6 @@ label[for="subject_expertise"]::after {
 #tutor_application_main,
 #tutor_booking_main {
     display: block;
-}
-
-#tutor_application_form,
-#tutor_booking_form {
-    margin: 3px;
 }
 
 #tutor_application_form,
@@ -407,7 +414,7 @@ label {
     text-align: left;
 }
 
-/*form_response only styling*/
+/*CSS subsection: form_response only styling*/
 
 /*Overrides the inherited grid layout, and expands the main setion height by the missing nav height.*/
 #submission_form {
@@ -415,6 +422,7 @@ label {
     min-height: 55vh;
 }
 
+/*Styles containing block div of form submission feedback and return home button*/
 #response {
     text-align: center;
     line-height: 2;
@@ -426,6 +434,7 @@ label {
     margin: 10px
 }
 
+/*Styles the div containing the return home link button*/
 #home_button {
     background-color: #00bd9d;
     text-transform: uppercase;
@@ -440,22 +449,23 @@ label {
     font-family: "Barlow Semi Condensed", sans-serif;
     text-transform: uppercase;
     font-weight: 300;
-
 }
 
+/*Styles the home link button*/
 #home_button>a {
     text-decoration: underline;
     color: inherit;
     text-decoration-color: white;
 }
 
+/*changes the font-size of the footer text in the form response page only for better SEO (lighthouse rating)*/
 #page_top_form_response footer div {
     font-size: 0.75rem;
 }
 
-/*Timetable styling only*/
+/*CSS subsection: Timetable styling only*/
 
-/*Allows the sticky times column to slide over and be seen over the other table columns if and when the table becomes x-scrollable.*/
+/*Combined with another css rule, allows the sticky times column to slide over and be seen over the other table columns if and when the table becomes x-scrollable.*/
 table * {
     position: relative;
     left: 0px;
@@ -496,6 +506,7 @@ caption {
     background-color: #01748d;
 }
 
+/*makes empty placeholder table cells not visible*/
 .empty {
     visibility: hidden;
 }
@@ -508,13 +519,36 @@ th[id] {
     border-collapse: collapse;
 }
 
+/*Styles each pair of links at the bottom of each table*/
+
+.table_bottom_links span {
+    margin: 0px 5px;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.table_bottom_links a {
+    color: inherit;
+    margin: 0 5px;
+}
+
 /*Overrides the inherited grid layout*/
 #timetable {
     display: block;
 }
 
+/*styles th table links at the top of the page*/
+
 #table_links {
     padding: 7px;
+}
+
+#table_links a {
+    color: inherit;
+    margin: 8px;
+    font-size: 0.8rem;
+    /*stops links being split over two lines*/
+    display: inline-block;
 }
 
 #timetable>h2 {
@@ -538,26 +572,7 @@ th[id] {
     text-justify: inter-word;
 }
 
-.table_bottom_links span {
-    margin: 0px 5px;
-    font-size: 0.8rem;
-    padding: 10px;
-}
-
-.table_bottom_links a {
-    color: inherit;
-    margin: 0 5px;
-}
-
-#table_links a {
-    color: inherit;
-    margin: 8px;
-    font-size: 0.8rem;
-    /*stops links being split over two lines*/
-    display: inline-block;
-}
-
-/*FAQ styling only*/
+/*CSS subsection: FAQ styling only*/
 
 details>a {
     color: inherit;
@@ -594,7 +609,7 @@ details>a {
     text-align: center;
 }
 
-/*more information styling only*/
+/*CSS subsection: more information styling only*/
 
 /*Overrides the inherited grid layout*/
 #more_information_main {
@@ -645,9 +660,12 @@ details>a {
     color: inherit;
 }
 
-/*Logo and logo container responsive design media queries all pages*/
+/*CSS section: Logo and logo container responsive design media queries all pages*/
 
 /*screens of max height 400px*/
+
+/*Changes size and recenters logo and logo container*/
+
 @media screen and (max-height: 400px) {
     #logo_container {
         top: calc(50% - 30px);
@@ -659,11 +677,16 @@ details>a {
     }
 }
 
+/*Screens of min-height 400px, and min-width 210px*/
 @media screen and (min-height: 400px) and (min-width: 210px) {
     #logo_container>h1 {
         font-size: 3.5rem;
     }
 }
+
+/*Screens of min-height 500px, and min-width 260px*/
+
+/*Changes size and recenters logo and logo container*/
 
 @media screen and (min-height: 500px) and (min-width: 260px) {
     #logo_container>h1 {
@@ -676,6 +699,10 @@ details>a {
     }
 }
 
+/*Screens of min-height 600px, and min-width 305px*/
+
+/*Changes size and recenters logo and logo container*/
+
 @media screen and (min-height: 600px) and (min-width: 305px) {
     #logo_container>h1 {
         font-size: 4.5rem;
@@ -687,6 +714,10 @@ details>a {
     }
 }
 
+/*Screens of min-height 700px, and min-width 370px*/
+
+/*Changes size and recenters logo and logo container*/
+
 @media screen and (min-height: 700px) and (min-width: 370px) {
     #logo_container>h1 {
         font-size: 5.5rem;
@@ -697,6 +728,10 @@ details>a {
         left: calc(50% - 146px);
     }
 }
+
+/*Screens of min-height 1200px, and min-width 400px*/
+
+/*Changes size and recenters logo and logo container*/
 
 @media screen and (min-height: 1200px) and (min-width: 400px) {
     #logo_container>h1 {
@@ -711,17 +746,17 @@ details>a {
 
 
 
-/*Screens of width at least 400px*/
+/*CSS section: Screens of width at least 400px*/
 
 @media screen and (min-width: 400px) {
 
-    /*All pages*/
+    /*CSS subsection: All pages*/
 
     nav {
         font-size: 1.2rem;
     }
 
-    /*form pages,timetable, response form and more info page*/
+    /*CSS subsection: Form pages,timetable, response form and more info page*/
 
     #tutor_booking_main h2,
     #tutor_application_main h2,
@@ -741,7 +776,7 @@ details>a {
         font-size: 1rem;
     }
 
-    /*FAQ page*/
+    /*CSS subsection: FAQ page*/
 
     #faq_main>h2 {
         font-size: 2rem;
@@ -751,7 +786,7 @@ details>a {
         font-size: 0.9rem;
     }
 
-    /*Timetable page*/
+    /* CSS subsection: Timetable page*/
 
     caption {
         text-align: center;
@@ -764,28 +799,29 @@ details>a {
         margin: 0 auto;
     }
 
+    /*centers table links at the top of the page, and those below each table.*/
     .table_bottom_links,
     #table_links {
         display: block;
         text-align: center;
     }
 
-    /*more info page*/
+    /*CSS subsection: more info page*/
     #more_information_main h3 {
         font-size: 1.2rem;
     }
 }
 
-/* Screens of width at least 500px*/
+/*CSS section: Screens of width at least 500px*/
 
 @media screen and (min-width: 500px) {
 
-    /*Index.html hero-image*/
+    /*CSS subsection: Index.html hero-image*/
     picture[class="second_column first_row"] {
         text-align: center;
     }
 
-    /*Form pages,timetable, response form and more info page*/
+    /*CSS subsection: Form pages, timetable, response form and more info page*/
     #tutor_booking_main h2,
     #tutor_application_main h2,
     #timetable>h2,
@@ -795,7 +831,7 @@ details>a {
         font-size: 3rem;
     }
 
-    /*FAQ page*/
+    /*CSS subsection: FAQ page*/
 
     #faq_main>h2 {
         font-size: 2.5rem;
@@ -805,7 +841,7 @@ details>a {
         font-size: 0.95rem;
     }
 
-    /*timetable page*/
+    /*CSS subsection: timetable page*/
     .mon_to_fri_table,
     .saturday {
         font-size: 1.2rem;
@@ -813,13 +849,11 @@ details>a {
 
 }
 
-/*Screens of width at least 600px*/
-
-/*All pages*/
+/*CSS section: Screens of width at least 600px*/
 
 @media screen and (min-width: 600px) {
 
-    /*All pages*/
+    /*CSS subsection: All pages*/
 
     nav {
         font-size: 1.3rem;
@@ -833,11 +867,12 @@ details>a {
         font-size: 0.85rem;
     }
 
+    /*Sizing social media link icons*/
     .footer_external_links i {
         font-size: 1.8rem;
     }
 
-    /*Form pages, timetable, response form and more info page*/
+    /*CSS subsection: Form pages, timetable, response form and more info page*/
 
     #tutor_booking_main>section>p,
     #timetable>p,
@@ -857,7 +892,7 @@ details>a {
         font-size: 3.5rem;
     }
 
-    /*FAQ page*/
+    /*CSS subsection: FAQ page*/
 
     #faq_main>h2 {
         font-size: 3rem;
@@ -867,24 +902,24 @@ details>a {
         font-size: 1rem;
     }
 
-    /*timetable page*/
+    /*CSS subsection: timetable page*/
     .mon_to_fri_table,
     .saturday {
         font-size: 1.4rem;
     }
 
-    /*more info page*/
+    /*CSS subsection: more info page*/
     #more_information_main h3 {
         font-size: 1.4rem;
     }
 
 }
 
-/*Screens of at least width 750px*/
+/*CSS section: Screens of at least width 750px*/
 
 @media screen and (min-width: 750px) {
 
-    /*Main, nav and footer all pages*/
+    /*CSS subsection: Main, nav and footer all pages*/
 
     nav {
         font-size: 1.4rem;
@@ -906,7 +941,7 @@ details>a {
         font-size: 2rem;
     }
 
-    /*Index.html hero-image*/
+    /*CSS subsection: Index.html hero-image*/
 
     picture[class="second_column first_row"] {
         max-height: 580px;
@@ -917,7 +952,7 @@ details>a {
     }
 
 
-    /*Form pages, timetable, response form and more info page*/
+    /*CSS subsection: Form pages, timetable, response form and more info page*/
 
     input[type="checkbox"],
     input[type="radio"] {
@@ -949,29 +984,29 @@ details>a {
         font-size: 1.4rem;
     }
 
-    /*FAQ page*/
+    /*CSS subsection: FAQ page*/
     #faq_main>p {
         font-size: 1.5rem;
     }
 
-    /*timetable page*/
+    /*CSS subsection: timetable page*/
     .mon_to_fri_table,
     .saturday {
         font-size: 1.8rem;
     }
 
-    /*more info page*/
+    /*CSS subsection: more info page*/
     #more_information_main h3 {
         font-size: 1.6rem;
     }
 
 }
 
-/*For screens of at least width 910px*/
+/*CSS section: For screens of at least width 910px*/
 
 @media screen and (min-width: 910px) {
 
-    /*Main, nav and footer all pages*/
+    /*CSS subsection: Main, nav and footer all pages*/
 
     nav {
         font-size: 1.6rem;
@@ -989,7 +1024,7 @@ details>a {
         font-size: 2.5rem;
     }
 
-    /*Form pages, timetable, form_response and more info page*/
+    /*CSS subsection: Form pages, timetable, form_response and more info page*/
 
     input[type=submit],
     input[type=reset] {
@@ -1005,7 +1040,7 @@ details>a {
         font-size: 1.5rem;
     }
 
-    /*FAQ page*/
+    /*CSS subsection: FAQ page*/
 
     #faq_main>h2 {
         font-size: 3.5rem;
@@ -1015,23 +1050,23 @@ details>a {
         font-size: 1.6rem;
     }
 
-    /*timetable page*/
+    /*CSS subsection: timetable page*/
     .mon_to_fri_table,
     .saturday {
         font-size: 1.9rem;
     }
 
-    /*more info page*/
+    /*CSS subsection: more info page*/
     #more_information_main h3 {
         font-size: 1.7rem;
     }
 }
 
-/*For screens of at least width 1150px*/
+/*CSS section: For screens of at least width 1150px*/
 
 @media screen and (min-width: 1150px) {
 
-    /*Main, nav and footer all pages*/
+    /*CSS subsection: Main, nav and footer all pages*/
 
     nav {
         font-size: 1.8rem;
@@ -1054,7 +1089,7 @@ details>a {
         font-size: 3rem;
     }
 
-    /*Index.html hero-image*/
+    /*CSS subsection: Index.html hero-image*/
 
     picture[class="second_column first_row"] {
         max-height: 700px;
@@ -1064,7 +1099,7 @@ details>a {
         max-height: 640px;
     }
 
-    /*Form pages, timetable, response form and more info page*/
+    /* CSS subsection: Form pages, timetable, response form and more info page*/
 
     #tutor_booking_main>section>p,
     #timetable>p,
@@ -1084,7 +1119,7 @@ details>a {
         font-size: 4.5rem;
     }
 
-    /*FAQ page*/
+    /*CSS subsection: FAQ page*/
 
     #faq_main>h2 {
         font-size: 4rem;
@@ -1094,22 +1129,22 @@ details>a {
         font-size: 2rem;
     }
 
-    /*timetable page*/
+    /*CSS subsection: timetable page*/
     .mon_to_fri_table,
     .saturday {
         font-size: 2rem;
     }
 
-    /*more info page*/
+    /*CSS subsection: more info page*/
     #more_information_main h3 {
         font-size: 1.9rem;
     }
 
 }
 
-/*Screens with height or width of at least 1000px*/
+/*CSS section: Screens with height or width of at least 1000px*/
 
-/* Change of background image for wider screens with large width:height aspect ratio*/
+/*Change of background image for wider screens with large width:height aspect ratio*/
 @media screen and (min-height: 1000px),
 (min-width: 1000px) {
     header {
@@ -1117,11 +1152,11 @@ details>a {
     }
 }
 
-/*Screens with height or width of at least 1400px*/
+/*CSS section: Screens with height or width of at least 1400px*/
 
 @media screen and (min-width: 1400px) {
 
-    /*All pages*/
+    /*CSS subsection: All pages*/
 
     nav {
         font-size: 2.1rem;
@@ -1136,7 +1171,7 @@ details>a {
         font-size: 4rem;
     }
 
-    /*form pages, timetable, response form and more info page*/
+    /*CSS subsection: Form pages, timetable, response form and more info page*/
 
     input[type="checkbox"],
     input[type="radio"] {
@@ -1173,7 +1208,7 @@ details>a {
         font-size: 2rem;
     }
 
-    /*FAQ page*/
+    /*CSS subsection: FAQ page*/
 
     #faq_main>h2 {
         font-size: 5rem;
@@ -1183,13 +1218,13 @@ details>a {
         font-size: 2.3rem;
     }
 
-    /*timetable page*/
+    /*CSS subsection: timetable page*/
     .mon_to_fri_table,
     .saturday {
         font-size: 2.9rem;
     }
 
-    /*more info page*/
+    /*CSS subsection: more info page*/
     #more_information_main h3 {
         font-size: 2.2rem;
     }
