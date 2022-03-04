@@ -45,7 +45,7 @@ The tutoring is to be hosted via a video call application that provides the abil
  In order to achieve the needs of the site owner and the users, as well as satisfy the websites purpose, it will minimally require the following functions and content:
 
 - Provide advertisement of and information about the tutoring scheme
-- A way for tutors to register their details, including their STEM subject expertise, as well what dates and times during a week they will be available to tutor
+- A way for tutors to register their details, including their STEM subject expertise, as well as what dates and times during a week they will be available to tutor
 - A way for students to book a tutoring session on a given date at a certain time, as well as enable them to provide a short description of the topic they would like to cover.
 - A way to assist students with choosing which dates and times to request a session, and to have an idea of tutor availability.
 - Content that answers any common questions tutors and students may have.
