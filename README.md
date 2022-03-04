@@ -23,7 +23,7 @@ on a site that made booking a tutor very easy and stress free.
 - As a parent of a secondary school student I would like a site for organising online tutoring via a video call, to have a means of allowing tutors to provide enough 
 information for safeguarding checks to be performed.
 
-In summary potential student users desire affordable on-demand tutoring, that is easily accessible and thus online, tailored to them as individuals, and of good quality. A site should provide the ability for students to book a session on a topic of there choice with a qualified tutor with minimal effort.
+In summary potential student users desire affordable on-demand tutoring, that is easily accessible and thus online, tailored to them as individuals, and of good quality. A site should provide the ability for students to book a session on a topic of their choice with a qualified tutor with minimal effort.
 
 ##### Tutors:
 - As an undergraduate I would like more opportunities to tutor in a STEM subject, in order to develop my CV.
