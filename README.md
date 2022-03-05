@@ -4,6 +4,7 @@
 The Tutor U site in part provides advertisement and information for a free, voluntary tutor based, online, on-demand tutoring scheme operated by a non-profit organisation. The tutoring is offered in core STEM subjects to secondary school and sixth form college students, and voluntary tutors register to tutor as often as they like each week, and provide arranged one hour video call sessions with a student seeking help in a core STEM subject. 
 
 Additionally the site provides the means by which potential voluntary tutors apply to become a tutor and they can provide the days and times during a week they wish to tutor, and in what subjects. The site also provides the ability for students to book a session with an avaialble tutor and specify the topic and or problem they would like to discuss in advance.
+![am i responsive screenshot](docs/screenshots/am_i_responsive_screenshot.png)
 
 ## Design Process
 
@@ -12,7 +13,7 @@ Additionally the site provides the means by which potential voluntary tutors app
 #### Target Audience:
 The primary audiences are firstly secondary school and sixth form college students in the UK seeking tutoring in STEM subjects; and secondly individuals looking to become voluntary tutors in STEM subjects. It is anticipated that the bulk of said tutors will be undergraduates studying a STEM degree who are seeking voluntary tutor roles, for the sake of their CV development through gaining skills and experience. Students with a possible interest in teaching will also have a strong desire to seek experience. The other group of volunteers are anticipated to be retired teachers, or any other individuals who have sufficient expertise in a STEM subject, with an interest in helping students who would normally not have access to tutors, gain assistance in their learning.
 
-#### User stories:
+#### User stories
 
 ##### Students:
 - As a student, tutors are far too expensive for me, and there are very few schemes offering affordable tutoring. I wish there were more on demand affordable schemes I could use. 
