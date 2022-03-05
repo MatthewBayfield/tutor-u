@@ -42,7 +42,7 @@ Tutoring is generally expensive, in-practical and hard to access when tutoring i
 The scope of the scheme will be to provide tutoring in any of the core STEM subjects to secondary school and college students within the UK, and to use voluntary tutors. 
 The tutoring is to be hosted via a video call application that provides the ability to screen share. Volunteer tutors will apply to become a tutor and indicate on a weekly basis on what days and at what times they want to tutor. They will also need to indicate the STEM subjects they are qualified to tutor in. Tutoring sessions will be a maximum of one hour, and will be allocated on a first come first serve basis, up to one week in advance. Students wishing to be tutored will book a session at least 48hrs in advance. Additionally they will need to indicate with a short description the topic they would like their potential tutor to cover in their session.
 
-#### Site key functions and content
+#### Site key functions and content:
  In order to achieve the needs of the site owner and the users, as well as satisfy the websites purpose, it will minimally require the following functions and content:
 
 - Provide advertisement of and information about the tutoring scheme
@@ -51,7 +51,7 @@ The tutoring is to be hosted via a video call application that provides the abil
 - A way to assist students with choosing which dates and times to request a session, and to have an idea of tutor availability.
 - Content that answers any common questions tutors and students may have.
 
-#### Proposed features
+#### Proposed features:
 To address the  minimal required site content and functionality, the following features were proposed to be implemented:
 - Home/landing page to act as a clear concise summary introduction of the tutoring scheme and provide its key information. Also it will act as a first point of contact for tutees and tutors, to direct them to the necessary pages to allow them  to apply to be a tutor and or arrange tutoring sessions. It will finally provide links to other pages explaining the full details of the scheme in more depth, and answering common questions.
 - A form page for potential tutors to apply, where they can provide their personal details, including their STEM subject expertise, as well what dates and times during a week they want to tutor.
@@ -60,7 +60,18 @@ To address the  minimal required site content and functionality, the following f
 - A further information page detailing the scheme in more depth, providing any important information not covered on the landing page.
 - Finally a FAQ's page will be implemented to answer common questions of tutors and students.
 
-#### Proposed future features
-- Allow automation of session booking, and real-time updates to tutor availability, to be done using JavaScript. At the moment changes to the site need to be done manually, which is inefficient and error-prone; Session booking requires the use of emails to be sent manually. Automation will increase functionality of the site, and also make it more scalable.
+#### Proposed future features:
+- Allow automation of session booking, and real-time updates to tutor availability, to be done using JavaScript. At the moment changes to the site need to be done manually, which is inefficient and error-prone; session booking requires the use of emails to be sent manually. Automation will increase functionality of the site, and also make it more scalable.
 - Allow tutees to provide feedback/reviews directly to the site.
 - Allow allocation priority to be assigned that gives preference to those that have received fewer sessions, by tracking how many sessions in a given time period a student has had.
+
+### Structure/Skeleton
+
+#### All pages
+All pages will contain main navigation links near the top of the page to allow easy site navigation. All pages will contain a footer contaning a social media links, contact, useful links and site map section. The site map will contain links to all other pages, as well as a back to top link, allowing further site/page navigation. The useful links and social media links section will contain external links. All pages will have a header with a logo. Each page will be scrollable in the y direction.
+
+The aim for all pages is to keep the core layout and strucutre essentially the same for all display sizes, with only sizing, minor positional shifts, and image changes making up the bulk of the responsivity of the site. Wireframes were only produced for mobile displays consequently.
+
+#### Landing page
+The landing page is to contain the most important summary information about the tutoring scheme. It will contain an introduction to the scheme itself as well as two sections, one intended for tutors, the the other intended for tutees. These sections will detail the minimum key information a tutor or tutee needs to know to participate in the scheme. A hero-image will also feature. There will also be internal links in the tutor and tutee section making it clear which pages each user must go to as a next step to join the scheme. [Landing page wireframe.](docs/wireframes/landing%20page%20wireframe.png)
+
