@@ -96,4 +96,17 @@ The color palettes to be used are a mix of palettes created using the [coolors](
 <img src="docs/screenshots/palette_set_one.png" width=50% height=50%><img src="docs/screenshots/palette_set_two.png" width=50% height=50%>
 
 As regards to typography, the IBM Plex Serif font-family was chosen for headings, and the yantramanav font-family for the body; both of which were taken from 
-[google fonts](https://fonts.google.com/).
+[google fonts](https://fonts.google.com/). Font awesome icons will also be used where suitable.
+
+## Existing implemented features
+
+### Features common to all pages
+
+#### Typography:
+For typography the font famillies used differ from those mentioned in the design process. On all pages the font family Barlow Semi Condensed was used mainly for headings and the navigation links, and the font family News cycle in the main body elsewhere. The change in fonts was partly stylistic upon receiving user feedback during testing, and also to improve contrast. Again both fonts were sourced from google fonts. 
+
+#### Color scheme:
+There are also some slight changes to the color scheme introduced in the design process, again for similar reasons, but more so this time for the purpose of improved text and background color contrast, particulary in the navigation links, footer and logo sections. In all pages the background color of the navigation section, footer and logo container are the same, and a white font is used to maximise contrast. Where borders are present the same color is always used. Likewise any icons used and link underlines use the same color as used for the border. For tables the same background color as for the footer etc is used, and the table lines use the border color. Finally the form outlines use the same color as the borders. In the main section of each page a black font on white background is used always, again to maximise contrast and readablity. The use of two background color - line color pairs, accompanied by a fixed font color, that is a function of the background color used, helps to maintain the simplicity and consistency of the site, as well as  generate a sense of famillarity in the user, who can gain information from the repeating pattern of color usage. Additionally the color scheme employed enables the text content to be clear to all users.
+
+<img src="docs/screenshots/current_color_scheme.png" width=50% height=50%>
+
