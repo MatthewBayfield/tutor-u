@@ -7,6 +7,7 @@ Additionally the site provides the means by which potential voluntary tutors app
 ![am i responsive screenshot](docs/screenshots/am_i_responsive_screenshot.png)
 
 ## Design Process
+This section details the initial planning and design performed before the site was constructed. Some of the initial design decisions were modified in the current site state.
 
 ### Strategy
 
@@ -53,7 +54,7 @@ The tutoring is to be hosted via a video call application that provides the abil
 
 #### Proposed features:
 To address the  minimal required site content and functionality, the following features were proposed to be implemented:
-- Home/landing page to act as a clear concise summary introduction of the tutoring scheme and provide its key information. Also it will act as a first point of contact for tutees and tutors, to direct them to the necessary pages to allow them  to apply to be a tutor and or arrange tutoring sessions. It will finally provide links to other pages explaining the full details of the scheme in more depth, and answering common questions.
+- Home/landing page to act as a clear concise summary introduction of the tutoring scheme and provide its key information. Also it will act as a first point of contact for tutees and tutors, to direct them to the necessary pages to allow them to apply to be a tutor and or arrange tutoring sessions. It will finally provide links to other pages explaining the full details of the scheme in more depth, and answering common questions.
 - A form page for potential tutors to apply, where they can provide their personal details, including their STEM subject expertise, as well what dates and times during a week they want to tutor.
 - A form page for tutees to book a tutoring session on a given date at a certain time, as well as enable them to provide a short description of the topic they would like to cover.
 - To assist students in choosing which dates and times to book a session and enable them to have an idea of tutor availability, a  timetable page will be used that indicates at what times, on which dates, in which subjects how many tutors are available. This will be done for a rolling week.
@@ -86,3 +87,12 @@ The more information page is to contain more in depth information about the sche
 
 #### FAQ page
 The frequently asked questions page is to display common questions and answers. It will be split in to two sections, one a set of questions from tutors, the other tutees. Togglable objects will allow the user to display and hide answers to the questions they choose. A few of the answers will contain links to other pages where relevant. [FAQ page wireframe.](docs/wireframes/faqs_page_wireframe.png)
+
+### Surface
+An animation for the logo in the header of each page will be used, that will cause the logo and its container to briefly expand and contract on page loading, with a different color border. In the header a background image will be used with the logo container being partially transparent. The header and footer and main sections will have the same color scheme and font use on all pages for consistency and clarity.
+
+The color palettes to be used are a mix of palettes created using the [coolors]("https://coolors.co/?home") website:
+
+<img src="docs/screenshots/palette_set_one.png" width=50% height=50%><img src="docs/screenshots/palette_set_two.png" width=50% height=50%>
+As regards to typography, the IBM Plex Serif font-family was chosen for headings, and the yantramanav font-family for the body; both of which were taken from 
+[google fonts]("https://fonts.google.com/").
