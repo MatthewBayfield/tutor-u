@@ -93,8 +93,7 @@ An animation for the logo in the header of each page will be used, that will cau
 
 The color palettes to be used are a mix of palettes created using the [coolors](https://coolors.co/?home) website:
 
-<img src="docs/screenshots/palette_set_one.png" width=50% height=50%>
-<img src="docs/screenshots/palette_set_two.png" width=50% height=50%>
+<img src="docs/screenshots/palette_set_one.png" width=50% height=50%><img src="docs/screenshots/palette_set_two.png" width=50% height=50%>
 
 As regards to typography, the IBM Plex Serif font-family was chosen for headings, and the yantramanav font-family for the body; both of which were taken from 
 [google fonts](https://fonts.google.com/).
