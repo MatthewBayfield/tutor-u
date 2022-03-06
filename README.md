@@ -83,3 +83,6 @@ The tutor application form page and tutor booking form page will have a very sim
 
 #### More information page
 The more information page is to contain more in depth information about the scheme than that covered on the landing page. Its primary purpose along with the FAQ's page is to provide any other information not provided by the landing page. The information will be organised into headed sections, with a paragraph beneath each. The page will also feature a hero-image. [More information page wireframe.](docs/wireframes/more_information_page_wireframe.png)
+
+#### FAQ page
+The frequently asked questions page is to display common questions and answers. It will be split in to two sections, one a set of questions from tutors, the other tutees. Togglable objects will allow the user to display and hide answers to the questions they choose. A few of the answers will contain links to other pages where relevant. [FAQ page wireframe.](docs/wireframes/faqs_page_wireframe.png)
