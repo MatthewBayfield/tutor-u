@@ -110,3 +110,8 @@ There are also some slight changes to the color scheme introduced in the design 
 
 <img src="docs/screenshots/current_color_scheme.png" width=50% height=50%>
 
+#### Header
+The header on all pages consists of a background image for smaller screens and a background image that displays better on larger screens. In the foreground there is a logo container box enclosing the tutor U logo, which is made using in part a font awesome magnet icon, reflecting the STEM theme of the site. The logo is partially transparent to allow the background image to still be seen. Upon page loading the logo and logo container perform an animation expanding and contracting with a transient border color change; the purpose of the animation being to highlight the scheme name and provide visual stimulation to the user. The background images themselves, the first showing a whiteboard with some maths written on it, indicates the site is STEM and teaching related; the second showing a secondary school aged student taking notes whilst looking at a computer,  suggests to the user the site is online learning related. Thus either image when used in conjunction with the logo help to indicate the purpose of the site, which is important considering the header is one of the first things a user sees and looks to for information about a site.
+
+<img src="docs/screenshots/header_large_device_background_image.png" width=50% height=50%><img src="docs/screenshots/header_small_device_background_image.png" width=50% height=50%>
+
