@@ -91,9 +91,10 @@ The frequently asked questions page is to display common questions and answers. 
 ### Surface
 An animation for the logo in the header of each page will be used, that will cause the logo and its container to briefly expand and contract on page loading, with a different color border. In the header a background image will be used with the logo container being partially transparent. The header and footer and main sections will have the same color scheme and font use on all pages for consistency and clarity.
 
-The color palettes to be used are a mix of palettes created using the [coolors]("https://coolors.co/?home") website:
+The color palettes to be used are a mix of palettes created using the [coolors](https://coolors.co/?home) website:
 
-<img src="docs/screenshots/palette_set_one.png" width=50% height=50%><img src="docs/screenshots/palette_set_two.png" width=50% height=50%>
+<img src="docs/screenshots/palette_set_one.png" width=50% height=50%>
+<img src="docs/screenshots/palette_set_two.png" width=50% height=50%>
 
 As regards to typography, the IBM Plex Serif font-family was chosen for headings, and the yantramanav font-family for the body; both of which were taken from 
-[google fonts]("https://fonts.google.com/").
+[google fonts](https://fonts.google.com/).
