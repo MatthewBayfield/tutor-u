@@ -115,3 +115,7 @@ The header on all pages consists of a background image for smaller screens and a
 
 <img src="docs/screenshots/header_large_device_background_image.png" width=50% height=50%><img src="docs/screenshots/header_small_device_background_image.png" width=50% height=50%>
 
+#### Navigation element
+Below the header on each page is a set of main navigation links to every page, ordered from left to right and row by row (narrower displays) in priority of importance and frequency of use when visiting the site. Thus after the landing page, the tutor timetable and then the book a session links are next, as these will be the most commonly used pages by users, who will most commmonly be students who must visit the site and those pages everytime to book a session. After these links is the apply to be a tutor link, which will only need to be visited once by each applying tutor. The remaining faq and find out more links are least important and will likely be only accessed a few times by a new user. Feedback to a user informing them of which page they are currently on is indicated using a change in background color and font color around the active page link, which is also underlined. Below are screenshots of the navigation element on different width devices (left: phone size; right: laptop size).
+
+<img src="docs/screenshots/navigation_element_phone.png" width=50% height=50%><img src="docs/screenshots/navigation_element_laptop.png" width=50% height=50%>
