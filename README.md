@@ -142,7 +142,7 @@ The page has the biggest deviation from the wireframes produced during the initi
 
 Beneath each table are also two links, one allowing the user to return to the top of the page where another set of links exist for each subjects tables. The other link directs the student user to the booking form page, which is the next appropriate step having consulted the appropriate tutor timetable.
 
-At the top of the page above all tables is a heading and a paragraph providing the student user with information regarding the accuracy of the tables and how often they are updated. Then is the set of links to each pair of timetabls for each subject allowing the user to go straight to the timetable they want to see. These links combined with the links beneath each table allow the user to essentially avoid vertical scrolling altogether, and so make navigation between different tables and pages efficient and logical.
+At the top of the page above all tables is a heading and a paragraph providing the student user with information regarding the accuracy of the tables and how often they are updated. Then is the set of links to each pair of timetabls for each subject allowing the user to go straight to the timetable they want to see. These links combined with the links beneath each table allow the user to essentially avoid vertical scrolling altogether, and so make navigation between different tables and pages efficient and logical. A final point to note, is at the moment the timetable will have to be manually updated by modifying the HTMl.
 
 <img src="docs/screenshots/tutor_timetable_top.png" width=50% height=50%>
 
@@ -162,3 +162,8 @@ This page whilst relatively less important and being less frequently used, by st
 The only other significant feature present on the page is the hero-image, which similar to one of the background images already discussed features a secondary school student taking notes in front of a computer. This image is intended to further reinforce the desired view of how a session may look, as well as to break up the text content, and make the page less daunting with regard to being text heavy.
 
 <img src="docs/screenshots/find_out_more.png" width=50% height=50%>
+
+### FAQ page features and content
+The least important page of all in terms of essential content, is still useful in providing answers to common questions, and also instructs the user to email any further questions not covered, which themselves if they become frequent enough, may be added to the list of questions and answers displayed. The questions are broken in to two demarcated sets, intended for each cateogory of users. The answers are revealed/hidden at a users discretion by using the toggles, thus allowing them to see all questions at once, and only see the answers to the questions they care about. Some of the questions reinforce/summarise content covered elsewhere, whilst others are independent. Additionally some of the answers to the questions contain links to direct the user to certain pages, when relevant to the subject of the question.
+
+<img src="docs/screenshots/faq.png" width=50% height=50%>
