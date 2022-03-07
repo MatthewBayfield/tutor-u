@@ -153,3 +153,4 @@ The required sections/inputs in both forms are designated clearly through the us
 
 <img src="docs/screenshots/tutor_application_form.png" width=40% height=40%> <img src="docs/screenshots/book_a_session_form.png" width=40% height=40%>
 
+<img src="docs/screenshots/form_response.png" width=25% height=25%>
