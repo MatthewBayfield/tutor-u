@@ -144,4 +144,4 @@ Beneath each table are also two links, one allowing the user to return to the to
 
 At the top of the page above all tables is a heading and a paragraph providing the student user with information regarding the accuracy of the tables and how often they are updated. Then is the set of links to each pair of timetabls for each subject allowing the user to go straight to the timetable they want to see. These links combined with the links beneath each table allow the user to essentially avoid vertical scrolling altogether, and so make navigation between different tables and pages efficient and logical.
 
-<img src="docs/screenshots/tutor_timetable_top.png" width=40% height=40%>
+<img src="docs/screenshots/tutor_timetable_top.png" width=50% height=50%>
