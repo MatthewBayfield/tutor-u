@@ -61,11 +61,6 @@ To address the  minimal required site content and functionality, the following f
 - A further information page detailing the scheme in more depth, providing any important information not covered on the landing page.
 - Finally a FAQ's page will be implemented to answer common questions of tutors and students.
 
-#### Proposed future features:
-- Allow automation of session booking, and real-time updates to tutor availability, to be done using JavaScript. At the moment changes to the site need to be done manually, which is inefficient and error-prone; session booking requires the use of emails to be sent manually. Automation will increase functionality of the site, and also make it more scalable.
-- Allow tutees to provide feedback/reviews directly to the site.
-- Allow allocation priority to be assigned that gives preference to those that have received fewer sessions, by tracking how many sessions in a given time period a student has had.
-
 ### Structure/Skeleton
 
 #### All pages
@@ -167,3 +162,8 @@ The only other significant feature present on the page is the hero-image, which 
 The least important page of all in terms of essential content, is still useful in providing answers to common questions, and also instructs the user to email any further questions not covered, which themselves if they become frequent enough, may be added to the list of questions and answers displayed. The questions are broken in to two demarcated sets, intended for each cateogory of users. The answers are revealed/hidden at a users discretion by using the toggles, thus allowing them to see all questions at once, and only see the answers to the questions they care about. Some of the questions reinforce/summarise content covered elsewhere, whilst others are independent. Additionally some of the answers to the questions contain links to direct the user to certain pages, when relevant to the subject of the question.
 
 <img src="docs/screenshots/faq.png" width=50% height=50%>
+
+## Proposed future features
+- Allow automation of session booking, and real-time updates to tutor availability, to be done using JavaScript or python which I will learn in the near future. At the moment changes to the site need to be done manually, which is inefficient and error-prone, and requires a person with sufficient HTML knowledge; session booking requires the use of emails to be sent manually. Automation will increase functionality of the site, and also make it more scalable.
+- Allow tutees to provide feedback/reviews directly to the site. This will help the organisation improve the scheme, and will also be valuable to future tutors and tutees, who can use such reviews to better understand the scheme.
+- Allow allocation priority to be assigned that gives preference to those that have received fewer sessions, by tracking how many sessions in a given time period a student has had. At the moment it is likely demand will outweigh supply, and  the organisation wants to provide tutoring sessions to as many of those who can benefit, even if just from a single session.
