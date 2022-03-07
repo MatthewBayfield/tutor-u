@@ -167,3 +167,6 @@ The least important page of all in terms of essential content, is still useful i
 - Allow automation of session booking, and real-time updates to tutor availability, to be done using JavaScript or python which I will learn in the near future. At the moment changes to the site need to be done manually, which is inefficient and error-prone, and requires a person with sufficient HTML knowledge; session booking requires the use of emails to be sent manually. Automation will increase functionality of the site, and also make it more scalable.
 - Allow tutees to provide feedback/reviews directly to the site. This will help the organisation improve the scheme, and will also be valuable to future tutors and tutees, who can use such reviews to better understand the scheme.
 - Allow allocation priority to be assigned that gives preference to those that have received fewer sessions, by tracking how many sessions in a given time period a student has had. At the moment it is likely demand will outweigh supply, and  the organisation wants to provide tutoring sessions to as many of those who can benefit, even if just from a single session.
+
+## Testing process
+The testing process performed on the site can be found in [TESTING.md](TESTING.md).
