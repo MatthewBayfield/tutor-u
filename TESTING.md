@@ -57,3 +57,8 @@ Again the SEO score is less than 100 because of inappropriately sized tap target
 <img src="docs/screenshots/lighthouse_mobile_tutor_application.png" width=40% height=40%> <img src="docs/screenshots/lighthouse_mobile_tutor_booking.png" width=40% height=40%>
 
 Both form pages have an almost identical set of scores. Once again the SEO is limited by the nav element tap target size. Also again the main factors limiting the performance score are the background image cache policy, and the main-thread work.
+
+#### Find out more page
+<img src="docs/screenshots/lighthouse_mobile_more_information.png" width=50% height=50%>
+
+For SEO the same aforementioned point applies to this page. Likewise for the performance score. However one extra factor limiting the performance score is that I have not set the intrinsic width or height for the hero-image. This is a conscious choice as setting these image attributes drastically alters the layout, by reserving the full image size space aorund the scaled image, thus causing undesirable layout shifts. The only way to avoid this would be to find a different image more closely matched to each device size.
