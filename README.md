@@ -182,3 +182,28 @@ The Tutor U site was deployed on the hosting platform GitHub pages, using the fo
 
 The live URL link of the Tutor U site is as follows: [Tutor U website](https://matthewbayfield.github.io/tutor-u/index.html)
 
+## Credits
+
+### Media 
+All images were sourced from [Pexels](https://www.pexels.com/).
+
+### Content
+- All icons used were sourced from [font awesome](https://fontawesome.com/).
+- All fonts used were sourced from [google fonts](https://fonts.google.com/).
+- All text content was written by myself.
+- The color palette was generated using the [coolers palette generator](https://coolors.co/)
+
+### Tools
+- Firefox and chrome browser developer tools
+- Lighthouse browser extension
+- ARC toolkit browser extension
+- WAVE evaluation tool browser extension
+- WCAG color contrast checker
+- w3 HTML validator
+- w3 CSS validator
+- NVDA screen reader
+
+### Other
+- A thank you to the test users for the feedback you provided.
+- Thanks to my Code Institute Mentor Richard Wells, for the guidance you provided throughout the project.
+
