@@ -44,5 +44,11 @@ Every page on the current site passes the [w3 CSS validator](https://jigsaw.w3.o
 
 #### Home page
 <img src="docs/screenshots/lighthouse_mobile_home.png" width=50% height=50%>
+
 To achieve this score, the SEO was improved by using more descriptive links achieved by renaming the more information page to find out more. To improve the performance the hero-image  intrinsic width and height were added to prevent large layout shifts. 
 With regard to the performance score, some of the remaining main issues according to the analysis by the tool were a too short cache time for the images; a long main-thread work. I do not know how to configure the github pages  server HTTP response header to change the cache policy. The long main-thread work is likely a consequence of th CSS animation and complex header image and logo, which are important feaures of the site. I do not know how else to minimise the main-thread work effectively. The only remaining issue with the SEO score is that not all the tap links are appropriately sized. However user testing reported no problems with tapping targets, and so for now this has been disregarded.
+
+#### Tutor Timetable page
+<img src="docs/screenshots/lighthouse_mobile_timetable.png" width=50% height=50%>
+
+Again the SEO score is less than 100 because of inappropriately sized tap targets, essentially in the nav element. And also like with the home page performance the main thread work is too large, and worse than the home page score. In this case I suspect it is because of the sheer number of tables and their styling which cannot largely be avoided.
