@@ -170,3 +170,15 @@ The least important page of all in terms of essential content, is still useful i
 
 ## Testing process
 The testing process performed on the site can be found in [TESTING.md](TESTING.md).
+
+## Deployment
+
+The Tutor U site was deployed on the hosting platform GitHub pages, using the following procedure:
+
+1. In the GitHub project repository, click on the settings tab near the top of the page.
+2. On the lefthand menu, in the section designated code and automation, click on the pages link.
+3. This brings up the GitHub pages section. In this section move down to the source subsection. In here using the drop down menu select the main branch of the project and click save.
+4. A message is then displayed indicating a successful deployment, and a live URL link for the site is displayed.
+
+The live URL link of the Tutor U site is as follows: [Tutor U website](https://matthewbayfield.github.io/tutor-u/index.html)
+
