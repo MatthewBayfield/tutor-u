@@ -3,7 +3,7 @@
 ## Site Overview
 The Tutor U site in part provides advertisement and information for a free, voluntary tutor based, online, on-demand tutoring scheme operated by a non-profit organisation. The tutoring is offered in core STEM subjects to secondary school and sixth form college students, and voluntary tutors register to tutor as often as they like each week, and provide arranged one hour video call sessions with a student seeking help in a core STEM subject. 
 
-Additionally the site provides the means by which potential voluntary tutors apply to become a tutor and they can provide the days and times during a week they wish to tutor, and in what subjects. The site also provides the ability for students to book a session with an available tutor and specify the topic and or problem they would like to discuss in advance.
+Additionally the site provides the means by which potential voluntary tutors apply to become a tutor and they can provide the days and times during a week they wish to tutor, and in what subjects. The site also provides the ability for students to book a session with an available tutor and specify the topic and or problem they would like to discuss in advance. The site currently only uses HTML and CSS.
 ![am i responsive screenshot](docs/screenshots/am_i_responsive_screenshot.png)
 
 ## Design Process
