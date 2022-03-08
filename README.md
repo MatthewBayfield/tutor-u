@@ -137,7 +137,7 @@ The page has the biggest deviation from the wireframes produced during the initi
 
 Beneath each table are also two links, one allowing the user to return to the top of the page where another set of links exist for each subjects tables. The other link directs the student user to the booking form page, which is the next appropriate step having consulted the appropriate tutor timetable.
 
-At the top of the page above all tables is a heading and a paragraph providing the student user with information regarding the accuracy of the tables and how often they are updated. Then is the set of links to each pair of timetabls for each subject allowing the user to go straight to the timetable they want to see. These links combined with the links beneath each table allow the user to essentially avoid vertical scrolling altogether, and so make navigation between different tables and pages efficient and logical. A final point to note, is at the moment the timetable will have to be manually updated by modifying the HTML.
+At the top of the page above all tables is a heading and a paragraph providing the student user with information regarding the accuracy of the tables and how often they are updated. Then is the set of links to each pair of timetables for each subject allowing the user to go straight to the timetable they want to see. These links combined with the links beneath each table allow the user to essentially avoid vertical scrolling altogether, and so make navigation between different tables and pages efficient and logical. A final point to note, is at the moment the timetable will have to be manually updated by modifying the HTML.
 
 <img src="docs/screenshots/tutor_timetable_top.png" width=50% height=50%>
 
