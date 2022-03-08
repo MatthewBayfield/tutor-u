@@ -74,3 +74,9 @@ Again the same points common to all pages are behind the SEO and performance sco
 
 All pages essentially achieved the same set of scores, with all performance scores greater than 96. The cache policy and long main thread work being the main issues stil, all be it far less significant on desktop devices.
 
+## Accessibility
+A range of tools were used to test and improve the accessibility of the site. Firstly the WCAG contrast checker was used to assess which contrast standard the site met. Currently all pages meet at least the AA level, including for all types of simulated color blindness. To reach the AAA level was deemed to be too detrimental to the style of the site, making it far less appealing to the user. To achieve this AA level, the active page styling font color had to be changed to black.
+
+Another tool used was the ARC toolkit browser extension along with the web accessibility evaluation tool extension (WAVE). The site currently using these evaluation tools has no errors, and aria attributes have been applied where expected and correctly.
+
+Finally the NVDA screen reader has been used to read through all pages and test how it interacts with all interactive elements. A consequence of using the screen reader was to add an aria label to the tutor u logo heading, as the screen reader does not read any font awesome icons directly. Likewise the uppercase word 'US' was misread as the country, and so aria labels were used to correct this. Another example of a correction made to an issue highlighted by the screen reader, was the replacement of the abbreviation of hours: 'hrs'. A final bug discovered with the screen reader was that when hovering with the mouse over a font-awesome icon associated with a link, the aria labels are not read, at least with NVDA; they are read when the screen reader reads whe whole page in review mode. This seems to be a known issue and I do not know whether the same is true for other screen readers.
