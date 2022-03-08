@@ -67,3 +67,10 @@ For SEO the same aforementioned point applies to this page. Likewise for the per
 <img src="docs/screenshots/lighthouse_mobile_faq.png" width=50% height=50%>
 
 Again the same points common to all pages are behind the SEO and performance scores.
+
+### For desktop
+
+<img src="docs/screenshots/lighthouse_desktop.png" width=50% height=50%>
+
+All pages essentially achieved the same set of scores, with all performance scores greater than 96. The cache policy and long main thread work being the main issues stil, all be it far less significant on desktop devices.
+
