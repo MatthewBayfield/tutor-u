@@ -10,4 +10,30 @@ To illustrate how manual testing was used to discover any issues and fix them wh
 - It was noticed in the browser devtools and on mobile devices that the header was causing horizontal overflow and thus horizontal scroll despite having a width of 100vw. I then learnt that the viewport units do not take into account the space occupied by the vertical scroll bar. The issue was resolved by changing the width value to 100% which takes into account the actual available space.
 - After having changed the file name of the now called tutor_booking_form file I forgot to change the href's of links to the page. By testing one of the links I realised all such links were broken, so I checked the source code and then my mistake was obvious. To fix the issue I merely adjusted the href's.
 - It was discovered that the behaviour of the feedback for unfilled or incorrectly filled form inputs varied depending on the browser. In particular for firefox on mobile, there was no obvious feedback which informed the user that any required fields had been not been filled or filled incorrectly. This is obviously a feature of the browser, and will have to be combated with my own coded feedback that resembles the feedback given by other browsers, for example scrolling the page up to the unfilled inputs and giving them focus if not an error message. I will be able to do this once I have learnt JavaScript.
-- Again when viewing the site on different browsers on tablet devices, the green checkbox hex symbol in the submission form page did not always display fully correctly. I have yet to discover why this is the case, but may in the future seek an alternative, perhaps, font awesome icon  to replace it, which will hopefully resolve the issue.
+- Again when viewing the site on different browsers on tablet devices, the green checkbox hex symbol in the submission form page did not always display fully correctly. I have yet to discover why this is the case, but may in the future seek an alternative, perhaps, font awesome icon to replace it, which will hopefully resolve the issue.
+
+## User testing
+Like with the manual testing conducted by myself, test users of the site were used throughout its development. Their role primarily was to spot any obvious mistakes or visual anomalies, as well give their feedback with regard to their overall user experience: how easy was the site to navigate; how clearly was the information organised, is the text readable, and the color contrast sufficient. Users would also provide feedback on whether the interactive components, namely all links and the form inputs and buttons etc operated as they would expect as a user.
+
+### User testing issues raised
+- One tester commented that the initial choice of fonts made the site look dated, unprofessional and untrustworthy. A different tester also was not keen on the fonts. As such the fonts used were changed.
+- A tester commented that the contrast between the main body text and the background color at the time could be better, the same applied to the choice of logo color font and background color. This complaint was resolved by changing the background color of the main body, and the color font of the logo.
+- A tester discovered a broken link in the site map link section. This was resolved by correcting the link href.
+- A test user commented that the social media link icons were to small on a mobile device to see and also tap easily. As such the icon size and spacing between icons was increased.
+
+## Use of HTML and CSS validators 
+Every page on the current site passes the [w3 HTML validator](https://validator.w3.org/nu/) with no errors or warnings.
+
+### Issues detected by the HTML validator
+- one of the classes for setting the location of each section in the home page grid layout, was missing underscores for spaces. This was fixed by inserting them.
+- There was a mismatch of label for and input id attribute values, which was fixed by making them match.
+- Some of the section tags were misspelt and were thus corrected.
+- A heading element size had sometimes be skipped on some pages, which was fixed by changing the heading types.
+- A section had a heading element just before it rather than inside it, and so had to be moved.
+- The home button of the form response page used the actual form element button, which is not its purpose. Instead a type of button that is essentially a button styled link was used as was the actual intention. 
+
+Every page on the current site passes the [w3 CSS validator](https://jigsaw.w3.org/css-validator/).
+
+<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"/>
+
+- The only issues detected were some font family value syntax errors, and some duplicated css rules.
