@@ -37,3 +37,12 @@ Every page on the current site passes the [w3 CSS validator](https://jigsaw.w3.o
 <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"/>
 
 - The only issues detected were some font family value syntax errors, and some duplicated css rules.
+
+## Lighthouse extension tool scores
+
+### For Mobile
+
+#### Home page
+<img src="docs/screenshots/lighthouse_mobile_home.png" width=50% height=50%>
+To achieve this score, the SEO was improved by using more descriptive links achieved by renaming the more information page to find out more. To improve the performance the hero-image  intrinsic width and height were added to prevent large layout shifts. 
+With regard to the performance score, some of the remaining main issues according to the analysis by the tool were a too short cache time for the images; a long main-thread work. I do not know how to configure the github pages  server HTTP response header to change the cache policy. The long main-thread work is likely a consequence of th CSS animation and complex header image and logo, which are important feaures of the site. I do not know how else to minimise the main-thread work effectively. The only remaining issue with the SEO score is that not all the tap links are appropriately sized. However user testing reported no problems with tapping targets, and so for now this has been disregarded.
