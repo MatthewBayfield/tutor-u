@@ -62,3 +62,8 @@ Both form pages have an almost identical set of scores. Once again the SEO is li
 <img src="docs/screenshots/lighthouse_mobile_more_information.png" width=50% height=50%>
 
 For SEO the same aforementioned point applies to this page. Likewise for the performance score. However one extra factor limiting the performance score is that I have not set the intrinsic width or height for the hero-image. This is a conscious choice as setting these image attributes drastically alters the layout, by reserving the full image size space aorund the scaled image, thus causing undesirable layout shifts. The only way to avoid this would be to find a different image more closely matched to each device size.
+
+#### FAQ page
+<img src="docs/screenshots/lighthouse_mobile_faq.png" width=50% height=50%>
+
+Again the same points common to all pages are behind the SEO and performance scores.
