@@ -52,3 +52,8 @@ With regard to the performance score, some of the remaining main issues accordin
 <img src="docs/screenshots/lighthouse_mobile_timetable.png" width=50% height=50%>
 
 Again the SEO score is less than 100 because of inappropriately sized tap targets, essentially in the nav element. And also like with the home page performance the main thread work is too large, and worse than the home page score. In this case I suspect it is because of the sheer number of tables and their styling which cannot largely be avoided.
+
+#### Form pages 
+<img src="docs/screenshots/lighthouse_mobile_tutor_application.png" width=40% height=40%> <img src="docs/screenshots/lighthouse_mobile_tutor_booking.png" width=40% height=40%>
+
+Both form pages have an almost identical set of scores. Once again the SEO is limited by the nav element tap target size. Also again the main factors limiting the performance score are the background image cache policy, and the main-thread work.
